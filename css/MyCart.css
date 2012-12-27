@@ -1,0 +1,211 @@
+/* CSS Document */
+	.content_promo{
+		width:				1080px;
+		margin:				10px 0px 10px 0px;
+		padding:			0px 0px 0px 0px;
+		float:				left;
+	}
+		.content_promo_title{
+		width:				400px;
+		margin:				0px 0px 0px 0px;
+		padding:			0px 0px 0px 0px;
+		float:				left;
+		}
+			.content_promo_title h1{
+			font-size:			1.1em;
+			color:	 			#1F5070;
+			}
+		.content_promo_phone{
+			width:				470px;
+			height:				30px;
+			margin:				5px 0px 0px 0px;
+			padding:			7px 0px 0px 20px;
+			float:				right;
+		}
+			.content_promo_phone p{
+				font-size:			1.05em;
+				color:				#333;
+				text-align:			right;
+				float:				right;
+			}
+			#promo_phone_img{
+				margin:				-5px 5px 0px 0px;
+				
+			}
+		.content_promo_select{
+			width:				1080px;
+			margin:				0px 0px 0px 0px;
+			padding:			0px 0px 0px 0px;
+			float:				left;
+		}
+	.ContentCarritoTitulo{
+			width:				1080px;
+			height:				75px;
+			margin:				0px 0px 0px 0px;
+			padding:			0px 0px 0px 0px;
+			float:				left;
+	}
+		.ContentCarritoTitulo h1{
+			font-size:			1.5em;
+			color:	 			#1F5070;
+			float:				left;
+		}
+		.ContentCarritoTitulo p{
+			width:				1080px;
+			float:				left;
+		}
+		#ActualizarCarrito{
+			font-size:			1.1em;
+			color:	 			#FFF;
+			float:				right;
+			height:				auto;
+			width:				auto;
+			margin:				10px 0px 0px 0px;
+			padding:			8px 15px 11px 15px;
+			background: 		rgb(0,176,218); /* Old browsers */
+			background:			-moz-linear-gradient(top,  rgba(0,176,218,1) 0%, rgba(19,152,178,1) 100%); /* FF3.6+ */
+			background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,176,218,1)), color-stop(100%,rgba(19,152,178,1))); /* Chrome,Safari4+ */
+			background: 		-webkit-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: 		-o-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* Opera 11.10+ */
+			background: 		-ms-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* IE10+ */
+			background: 		linear-gradient(to bottom,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* W3C */
+			filter: 			progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b0da', endColorstr='#1398b2',GradientType=0 ); /* IE6-9 */
+			cursor:				pointer;
+		}
+	.ContentCarritoItemsCont{
+			width:				815px;
+			margin:				10px 18px 20px 0px;
+			padding:			0px 0px 0px 0px;
+			float:				left;
+	}	
+		.ContentCarritoTitulos{
+			width:				815px;
+			margin:				0px 0px 10px 0px;
+			padding:			0px 0px 0px 10px;
+			float:				left;
+		}
+			.ContentCarritoTitulos p{
+			float:				left;
+			color:				#1F5070;	
+			font-weight:		bold;
+			text-align:			left;
+			}
+				#CarritoTitulo{
+					margin-left:	94px;
+				}
+				#CarritoPrecio{
+					margin-left:	248px;
+				}
+				#CarritoSubtotal{
+					margin-left:	72px;
+				}
+	.ContentCarritoItem:hover{
+			background-color:	#D0EBF7;
+			color:				#1F5070;
+	}	
+		.ContentCarritoItem{
+			width:				760px;
+			height:				115px;
+			margin:				0px 20px 0px 0px;
+			padding:			10px 0px 0px 10px;
+			float:				left;
+			border-bottom:		1px dashed #1F5070;	
+		}
+			.CarritoItemImg{
+				width:				84px;
+				height:				103px;
+				float:				left;
+			}
+				.CarritoItemImg img{
+					cursor:			pointer;
+				}
+			.CarritoItemTitulo{
+				width:				380px;
+				height:				47px;
+				float:				left;
+				margin:				5px 0px 0px 10px;
+				padding:			3px 0px 0px 0px;
+			}
+				.CarritoItemTitulo p{
+					cursor:				pointer;
+				}
+			.CarritoItemPrecio{
+				width:				100px;
+				height:				47px;
+				float:				left;
+				margin:				5px 0px 0px 10px;
+				padding:			3px 0px 0px 0px;
+				text-align:			left;
+			}
+			.CarritoItemSubtotal{
+				width:				105px;
+				height:				47px;
+				float:				left;
+				margin:				5px 0px 0px 0px;
+				padding:			3px 0px 0px 15px;
+				text-align:			left;
+			}
+			.CarritoItemEliminar{
+				width:				15px;
+				height:				46px;
+				float:				left;
+				margin:				5px 0px 0px 10px;
+				padding:			4px 0px 0px 0px;
+				text-align:			center;
+				cursor:				pointer;
+			}
+				.CarritoItemEliminar img{
+					cursor:				pointer;
+				}
+	.ContentCarritoTotal{
+			width:				235px;
+			height:				autopx;
+			margin:				10px 0px 0px 0px;
+			padding:			0px 6px 10px 6px;
+			float:				right;
+			background-color:	#D0EBF7;
+	}
+		.ContentCarritoTotal h1{
+				width:				245px;
+				height:				auto;
+				margin:				0px 0px 0px 0px;
+				padding:			0px 0px 0px 0px;
+				float:				left;
+				font-size:			1.4em;
+				color:	 			#1F5070;
+		}
+		.ContentCarritoTotal p{
+				width:				117px;
+				height:				auto;
+				margin:				10px 0px 0px 0px;
+				padding:			0px 0px 0px 0px;
+				float:				left;
+				text-align:			right;
+		}
+		#CarritoTotal{
+			width:				auto;
+			color:	 			#1F5070;
+			font-size:			1.26em;
+			border-top:			1px solid #1F5070;
+			padding-top:		5px;
+			float:				right;
+			padding-left:		5px;
+		}
+	#Checkout{
+			font-size:			1.1em;
+			color:	 			#FFF;
+			float:				right;
+			height:				30px;
+			width:				auto;
+			margin:				10px 0px 0px 0px;
+			padding:			8px 15px 0px 15px;
+			background: 		rgb(0,176,218); /* Old browsers */
+			background:			-moz-linear-gradient(top,  rgba(0,176,218,1) 0%, rgba(19,152,178,1) 100%); /* FF3.6+ */
+			background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,176,218,1)), color-stop(100%,rgba(19,152,178,1))); /* Chrome,Safari4+ */
+			background: 		-webkit-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: 		-o-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* Opera 11.10+ */
+			background: 		-ms-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* IE10+ */
+			background: 		linear-gradient(to bottom,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* W3C */
+			filter: 			progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b0da', endColorstr='#1398b2',GradientType=0 ); /* IE6-9 */
+			cursor:				pointer;	
+	}

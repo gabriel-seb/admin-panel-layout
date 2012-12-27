@@ -1,0 +1,185 @@
+/* CSS Document */
+.content_columna_1{
+	height:				auto;
+	width:				250px;
+	margin:				20px 0px 40px 0px;
+	padding:			0px 0px 0px 0px;
+	float:				left;
+	/*background-image:	url(../img/logo_columna.gif);*/
+	background-repeat:	no-repeat;
+}
+	.content_columna_1 .FilterTitle{
+		height:				auto;
+		width:				190px;
+		margin:				10px 0px 0px 0px;
+		padding:			8px 15px 8px 15px;
+		float:				left;
+		color:				#1F5070;
+		font-weight:		bold;
+		font-size:			1em;
+		text-transform:		uppercase;
+		cursor:				pointer;
+	}
+	.content_columna_1 ul{
+		list-style-type:none;
+		margin:			0;
+		padding:		0;
+	}
+	.content_columna_1 li{
+		height:				auto;
+		width:				190px;
+		margin:				5px 0 0 30px;
+		float:				left;
+		color:				#00B0DB;
+		font-size:			0.95em;
+		cursor:				pointer;
+		text-transform:		capitalize;
+	}
+	.content_columna_1 li:hover{
+		color:				#1F5070;
+	}
+.content_columna_2{
+	min-height:			400px;
+	width:				830px;
+	margin:				20px 0px 0px 0px;
+	padding:			0px 0px 0px 0px;
+	float:				left;
+}
+	.content_product_location{
+			float:				left;
+			height:				25px;
+			width:				830px;
+			margin:				0px 0px 0px 0px;
+			padding:			0px 0px 0px 0px;
+		}
+			.content_product_location ul{
+				list-style-type:none;
+				margin:			0;
+				padding:		0;
+				float:			left;	
+			}
+				.content_product_location li{
+					display:		inline;
+					margin:			5px 5px 5px 5px;
+					float:			left;
+				}
+	.content_columna_2 h1{
+		width:			820px;
+		font-size:		1.5em;
+		margin:			20px 0px 20px 0px;
+		padding:		0px 5px 0px 5px;
+		word-break:		break-all;
+		color:	 		#1F5070;
+		float:			left;
+	}
+	.ProductSingle{
+		height:				370px;
+		width:				200px;
+		margin:				10px 0px 0px 15px;
+		padding:			0px 0px 0px 0px;
+		float:				left;
+	}
+		.ProductImg{
+			height:				232px;
+			width:				189px;
+			margin:				0px 0px 10px 0px;
+			padding:			0px 0px 0px 6px;
+			float:				left;
+		}
+			.ProductImg img{
+				cursor:			pointer;			
+			}
+		.ProductSingle p{
+			min-height:			20px;
+			width:				191px;
+			margin:				0px 0px 0px 0px;
+			padding:			0px 0px 0px 0px;
+			float:				left;
+			word-break:			break-all;
+		}
+			#ProductoTitulo{
+				color:			#00B0DB;
+				text-align:		left;
+			}
+		#ProductoPrecio{
+			color:			#1F5070;
+			margin-top:		5px;	
+		}
+			.ProductSingle p strong{
+				font-size:		1.3em;
+				color:			#1F5070;
+			}
+		#AgregarBoton{
+			height:				10px;
+			width:				52px;
+			margin:				5px 0px 0px 0px;
+			padding:			5px 15px 3px 15px;
+			float:				left;
+			background: 		rgb(0,176,218); /* Old browsers */
+			background:			-moz-linear-gradient(top,  rgba(0,176,218,1) 0%, rgba(19,152,178,1) 100%); /* FF3.6+ */
+			background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,176,218,1)), color-stop(100%,rgba(19,152,178,1))); /* Chrome,Safari4+ */
+			background: 		-webkit-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* Chrome10+,Safari5.1+ */
+			background: 		-o-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* Opera 11.10+ */
+			background: 		-ms-linear-gradient(top,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* IE10+ */
+			background: 		linear-gradient(to bottom,  rgba(0,176,218,1) 0%,rgba(19,152,178,1) 100%); /* W3C */
+			filter: 			progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b0da', endColorstr='#1398b2',GradientType=0 ); /* IE6-9 */
+		}
+			#AgregarBoton a{
+				margin:				0px 0px 0px 0px;
+				padding:			0px 0px 0px 0px;
+				color:				#FFF;
+			}
+			#AgregarBoton a:hover{
+				margin:				0px 0px 0px 0px;
+				padding:			0px 0px 0px 0px;
+				color:				#1F5070;
+			}
+		.social{
+			min-height:			20px;
+			width:				191px;
+			margin:				0px 0px 0px 0px;
+			padding:			8px 0px 0px 0px;
+			float:				left;
+		}
+	.productos_ordenar{
+		width:			820px;
+		margin:			20px 0px 20px 0px;
+		padding:		0px 5px 0px 5px;
+		float:			left;
+		text-align:		right;
+	}
+	.content_promo{
+		width:				1080px;
+		margin:				10px 0px 10px 0px;
+		padding:			0px 0px 0px 0px;
+		float:				left;
+	}
+		.content_promo_title{
+		width:				400px;
+		margin:				0px 0px 0px 0px;
+		padding:			0px 0px 0px 0px;
+		float:				left;
+		}
+			.content_promo_title h1{
+			font-size:			1.1em;
+			color:	 			#1F5070;
+			}
+		.content_promo_phone{
+			width:				300px;
+			height:				30px;
+			margin:				5px 0px 0px 0px;
+			padding:			7px 0px 0px 40px;
+			float:				right;
+			background-image:	url(../img/telefono.gif);
+			background-repeat:	no-repeat;
+		}
+			.content_promo_phone p{
+				font-size:			1.05em;
+				color:				#333;
+			}
+		.content_promo_select{
+			width:				1080px;
+			margin:				0px 0px 0px 0px;
+			padding:			0px 0px 0px 0px;
+			float:				left;
+		}
