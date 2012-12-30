@@ -1,0 +1,41 @@
+*{
+ box-sizing: border-box; 
+}
+
+$pad: 20px;
+
+.wrapper{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.grid {
+	margin: 0 0 $pad 0;
+	overflow: hidden;
+}
+
+[class*='cols-'] {
+	float: left;
+	padding-right: $pad;
+	.grid &:last-of-type {
+		padding-right: 0;
+	}
+}
+.cols-2-3 {
+	width: 66.66%;
+}
+.cols-1-3 {
+	width: 33.33%;
+}
+
+.container {
+	padding: $pad;
+}
+
+/* Opt-in outside padding */
+.grid-pad {
+	padding: $pad 0 $pad $pad;
+	[class*='col-']:last-of-type {
+		padding-right: $pad;
+	}
+}
