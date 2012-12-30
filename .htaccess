@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.php [L,QSA]
+RewriteCond "%{REQUEST_URI}" "!Products\.php"
+RewriteRule "^Products/([^/]+).*" "Products.php?productid=$1" [L,QSA,PT]

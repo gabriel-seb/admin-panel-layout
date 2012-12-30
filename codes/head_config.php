@@ -13,6 +13,7 @@
     <script type="text/javascript" src="js/loading.js"></script>
     <meta name="google-translate-customization" content="6d805a34030699de-673c7470ee6e2889-g03d163b17408434f-d"></meta>
     <?php
+		error_reporting(0);
 		$currency='Bs.';
 		$error0='Error de Conexi&oacuten';
 		$errorqty=0;
