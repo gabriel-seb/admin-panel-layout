@@ -71,49 +71,49 @@
 								%a{:href =>"#"} Envíos
 							%li
 								%a{:href =>"#"} Impuestos
-		/filters div
-		.grid
-			.cols-1-3
-				%h2 Productos
-				%h4 Estatus
-				%h4 Disponibilidad
-				%h4 Ocasión
-			.cols-1-3
-				%select#status_select
-					%option Seleccione..
-				%select#availability_select
-					%option Seleccione..
-				%select#occasion_select
-					%option Seleccione..
-			.cols-1-3
-				.button.blue.small Buscar
-				.button.blue.small Crear
-		/products grid
-		.grid
-			.cols-1-1
-				%ul
-					/explanation of list
-					%li.explanation
-						%ol
-							%li
-								Imagen
-							%li
-								Producto
-							%li
-								Estatus
-								.status_symbols
-							%li
-								Disponibilidad
-								.availability_symbols
-							%li
-								Acciones
-								.actions_symbols
-					/inventory list
-					%li.item
-						.img Imagen
-						.product.name Nombre del Producto
-						.product.status Estado del Producto
-						.product.availability Disponibilidad del Producto
-						.product.actions
-							%a.edit{:href => "#"} Editar
-							%a.delete{:href => "#"} Borrar
+			/filters div
+			.grid
+				.cols-1-3
+					%h2 Productos
+					%h4 Estatus
+					%h4 Disponibilidad
+					%h4 Ocasión
+				.cols-1-3
+					%select#status_select
+						%option Seleccione..
+					%select#availability_select
+						%option Seleccione..
+					%select#occasion_select
+						%option Seleccione..
+				.cols-1-3
+					.button.blue.small Buscar
+					.button.blue.small Crear
+			/products grid
+			.grid
+				.cols-1-1
+					%ul
+						/explanation of list
+						%li.explanation
+							%ol
+								%li
+									Imagen
+								%li
+									Producto
+								%li
+									Estatus
+									.status_symbols
+								%li
+									Disponibilidad
+									.availability_symbols
+								%li
+									Acciones
+									.actions_symbols
+						/inventory list
+						%li.item
+							.img Imagen
+							.product.name Nombre del Producto
+							.product.status Estado del Producto
+							.product.availability Disponibilidad del Producto
+							.product.actions
+								%a.edit{:href => "#"} Editar
+								%a.delete{:href => "#"} Borrar

@@ -96,67 +96,14 @@
           </li>
         </ul>
       </nav>
-      <!-- filters div -->
-      <div class="grid">
-        <div class="cols-1-3">
-          <h2>Productos</h2>
-          <h4>Estatus</h4>
-          <h4>Disponibilidad</h4>
-          <h4>Ocasión</h4>
-        </div>
-        <div class="cols-1-3">
-          <select id="status_select">
-            <option>Seleccione..</option>
-          </select>
-          <select id="availability_select">
-            <option>Seleccione..</option>
-          </select>
-          <select id="occasion_select">
-            <option>Seleccione..</option>
-          </select>
-        </div>
-        <div class="cols-1-3">
-          <div class="button blue small">Buscar</div>
-          <div class="button blue small">Crear</div>
-        </div>
-      </div>
-      <!-- products grid -->
       <div class="grid">
         <div class="cols-1-1">
+          <h2>Nombre del Producto</h2>
           <ul>
-            <!-- explanation of list -->
-            <li class="explanation">
-              <ol>
-                <li>
-                  Imagen
-                </li>
-                <li>
-                  Producto
-                </li>
-                <li>
-                  Estatus
-                  <div class="status_symbols"></div>
-                </li>
-                <li>
-                  Disponibilidad
-                  <div class="availability_symbols"></div>
-                </li>
-                <li>
-                  Acciones
-                  <div class="actions_symbols"></div>
-                </li>
-              </ol>
-            </li>
-            <!-- inventory list -->
-            <li class="item">
-              <div class="img">Imagen</div>
-              <div class="product name">Nombre del Producto</div>
-              <div class="product status">Estado del Producto</div>
-              <div class="product availability">Disponibilidad del Producto</div>
-              <div class="product actions">
-                <a class="edit" href="#">Editar</a>
-                <a class="delete" href="#">Borrar</a>
-              </div>
+            <li>
+              <h4>Imagen (Tamaño)</h4>
+              <input id="file_load" name="image_load" type="file">
+              <div class="box image"></div>
             </li>
           </ul>
         </div>

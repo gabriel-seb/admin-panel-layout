@@ -1,0 +1,127 @@
+!!!
+/ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8] <html class="no-js lt-ie9" lang="en">
+/ [if gt IE 8]>
+/[endif]
+%html.no-js{:lang => "es"}
+	%head
+		%meta{:charset => "utf-8"}/
+		/ Set the viewport width to device width for mobile
+		%meta{:content => "width=device-width", :name => "viewport"}/
+		%title Bienvenido, <name>
+		/ Included CSS Files (Compressed)
+		%link{:href => "css/styles.css", :rel => "stylesheet"}
+		%link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
+		/ IE Fix for HTML5 Tags
+		/ [if lt IE 9]
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	%body
+		/base header
+		.wrapper
+			%header.main.top_gradient
+				%a.logo{:href => "#"} Karizmi
+				.session
+					%p 
+						Bienvenido,
+						%span <Nombre de usuario>
+						%a{:href => "#"} Cerrar sesión
+			/main navigation
+			%nav
+				%ul
+					%li
+						%a{:href =>"#"} Órdenes
+					/parent
+					%li
+						%a{:href =>"#"} Inventario
+						/child list
+						%ul
+							%li
+								%a{:href =>"#"} Productos
+							%li
+								%a{:href =>"#"} Accesorios
+							%li
+								%a{:href =>"#"} Flores
+							%li
+								%a{:href =>"#"} Tamaños
+							%li
+								%a{:href =>"#"} Colores
+							%li
+								%a{:href =>"#"} Ocasiones
+					/parent
+					%li
+						%a{:href =>"#"} Acciones
+						/child list
+						%ul
+							%li
+								%a{:href =>"#"} Banners
+							%li
+								%a{:href =>"#"} Top de Productos
+					/parent
+					%li
+						%a{:href =>"#"} Configuración
+						/child list
+						%ul
+							%li
+								%a{:href =>"#"} Usuarios
+							%li
+								%a{:href =>"#"} Monedas
+							%li
+								%a{:href =>"#"} Envíos
+							%li
+								%a{:href =>"#"} Impuestos
+				/new product creation form
+				.grid
+					/first column
+					.cols-1-2
+						%h2 Crear un producto nuevo
+						%form
+							%input{:placeholder => "Nombre del Artículo", :type => "text"}
+							%textarea{:placeholder => "Descripción del producto", :cols => "4", :rows => "2"}
+
+							/flower types
+							%h4 Flores
+							%select#flowers_select
+								%option Seleccione..
+							%input#flower_add{:value => "Añadir", :type => "submit"}
+							
+							/ocassions
+							%h4 Ocasiones
+							%select#occasions_select
+								%option Seleccione..
+							%input#occassion_add{:value => "Añadir", :type => "submit"}
+					/second column
+					.cols-1-2
+						/status
+						%select#status_select
+							%option Estatus
+						%input#status_add{:value => "Añadir", :type => "submit"}
+						
+						/availability
+						%select#availability_select
+							%option Disponibilidad
+						%input#availability_add{:value => "Añadir", :type => "submit"}
+						
+						/sizes
+						%h4 Tamaños
+						%select#sizes_select
+							%option Seleccione..
+						%input#size_price_add{:value => "Precio", :type => "submit"}
+						%input#size_add{:value => "Añadir", :type => "submit"}
+						
+						/colors
+						%h4 Colores
+						%select#colors_select
+							%option Seleccione..
+						%input#color_add{:value => "Añadir", :type => "submit"}
+
+						/accessories
+						%h4 Accesorios
+						%select#accessories_select
+							%option Seleccione..
+						%input#accessory_add{:value => "Añadir", :type => "submit"}
+				/button add and other actions
+				.grid
+					.cols-1-1
+						%input#submit_form{:value => "Agregar producto", :type => "submit"}

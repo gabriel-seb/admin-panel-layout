@@ -95,72 +95,68 @@
             </ul>
           </li>
         </ul>
+        <!-- new product creation form -->
+        <div class="grid">
+          <!-- first column -->
+          <div class="cols-1-2">
+            <h2>Crear un producto nuevo</h2>
+            <form>
+              <input placeholder="Nombre del Artículo" type="text">
+              <textarea cols="4" placeholder="Descripción del producto" rows="2"></textarea>
+              <!-- flower types -->
+              <h4>Flores</h4>
+              <select id="flowers_select">
+                <option>Seleccione..</option>
+              </select>
+              <input id="flower_add" type="submit" value="Añadir">
+              <!-- ocassions -->
+              <h4>Ocasiones</h4>
+              <select id="occasions_select">
+                <option>Seleccione..</option>
+              </select>
+              <input id="occassion_add" type="submit" value="Añadir">
+            </form>
+          </div>
+          <!-- second column -->
+          <div class="cols-1-2">
+            <!-- status -->
+            <select id="status_select">
+              <option>Estatus</option>
+            </select>
+            <input id="status_add" type="submit" value="Añadir">
+            <!-- availability -->
+            <select id="availability_select">
+              <option>Disponibilidad</option>
+            </select>
+            <input id="availability_add" type="submit" value="Añadir">
+            <!-- sizes -->
+            <h4>Tamaños</h4>
+            <select id="sizes_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="size_price_add" type="submit" value="Precio">
+            <input id="size_add" type="submit" value="Añadir">
+            <!-- colors -->
+            <h4>Colores</h4>
+            <select id="colors_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="color_add" type="submit" value="Añadir">
+            <!-- accessories -->
+            <h4>Accesorios</h4>
+            <select id="accessories_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="accessory_add" type="submit" value="Añadir">
+          </div>
+        </div>
+        <!-- button add and other actions -->
+        <div class="grid">
+          <div class="cols-1-1">
+            <input id="submit_form" type="submit" value="Agregar producto">
+          </div>
+        </div>
       </nav>
-      <!-- filters div -->
-      <div class="grid">
-        <div class="cols-1-3">
-          <h2>Productos</h2>
-          <h4>Estatus</h4>
-          <h4>Disponibilidad</h4>
-          <h4>Ocasión</h4>
-        </div>
-        <div class="cols-1-3">
-          <select id="status_select">
-            <option>Seleccione..</option>
-          </select>
-          <select id="availability_select">
-            <option>Seleccione..</option>
-          </select>
-          <select id="occasion_select">
-            <option>Seleccione..</option>
-          </select>
-        </div>
-        <div class="cols-1-3">
-          <div class="button blue small">Buscar</div>
-          <div class="button blue small">Crear</div>
-        </div>
-      </div>
-      <!-- products grid -->
-      <div class="grid">
-        <div class="cols-1-1">
-          <ul>
-            <!-- explanation of list -->
-            <li class="explanation">
-              <ol>
-                <li>
-                  Imagen
-                </li>
-                <li>
-                  Producto
-                </li>
-                <li>
-                  Estatus
-                  <div class="status_symbols"></div>
-                </li>
-                <li>
-                  Disponibilidad
-                  <div class="availability_symbols"></div>
-                </li>
-                <li>
-                  Acciones
-                  <div class="actions_symbols"></div>
-                </li>
-              </ol>
-            </li>
-            <!-- inventory list -->
-            <li class="item">
-              <div class="img">Imagen</div>
-              <div class="product name">Nombre del Producto</div>
-              <div class="product status">Estado del Producto</div>
-              <div class="product availability">Disponibilidad del Producto</div>
-              <div class="product actions">
-                <a class="edit" href="#">Editar</a>
-                <a class="delete" href="#">Borrar</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
   </body>
 </html>
