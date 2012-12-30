@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 960px; }
+
+.grid {
+  margin: 0 0 20px 0;
+  overflow: hidden; }
+
+[class*='cols-'] {
+  float: left;
+  padding-right: 20px; }
+  .grid [class*='cols-']:last-of-type {
+    padding-right: 0; }
+
+.cols-2-3 {
+  width: 66.66%; }
+
+.cols-1-3 {
+  width: 33.33%; }
+
+.container {
+  padding: 20px; }
+
+/* Opt-in outside padding */
+.grid-pad {
+  padding: 20px 0 20px 20px; }
+  .grid-pad [class*='col-']:last-of-type {
+    padding-right: 20px; }
