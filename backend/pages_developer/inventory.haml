@@ -93,7 +93,7 @@
 					%a.button.orange.small{:href => "#"} Buscar
 					%a.button.orange.small{:href => "#"} Crear
 			/products grid
-			.grid
+			.grid.products
 				.cols-1-1
 					%ul
 						/explanation of list
@@ -105,19 +105,67 @@
 									Producto
 								%li
 									Estatus
-									.status_symbols
+									.status.symbols
 								%li
 									Disponibilidad
-									.availability_symbols
+									.availability.symbols
 								%li
 									Acciones
-									.actions_symbols
+									.actions.symbols
 						/inventory list
 						%li.item
-							.img Imagen
-							.product.name Nombre del Producto
-							.product.status Estado del Producto
-							.product.availability Disponibilidad del Producto
-							.product.actions
-								%a.edit{:href => "#"} Editar
-								%a.delete{:href => "#"} Borrar
+							%ol
+								%li
+									.img Imagen
+								%li	
+									.product.name Nombre del Producto
+								%li
+									.product.status Estado del Producto
+								%li	
+									.product.availability Disponibilidad del Producto
+								%li
+									.product.actions
+										%a.edit{:href => "#"} Editar
+										%a.delete{:href => "#"} Borrar
+						%li.item
+							%ol
+								%li
+									.img Imagen
+								%li	
+									.product.name Nombre del Producto
+								%li
+									.product.status Estado del Producto
+								%li	
+									.product.availability Disponibilidad del Producto
+								%li
+									.product.actions
+										%a.edit{:href => "#"} Editar
+										%a.delete{:href => "#"} Borrar
+						%li.item
+							%ol
+								%li
+									.img Imagen
+								%li	
+									.product.name Nombre del Producto
+								%li
+									.product.status Estado del Producto
+								%li	
+									.product.availability Disponibilidad del Producto
+								%li
+									.product.actions
+										%a.edit{:href => "#"} Editar
+										%a.delete{:href => "#"} Borrar
+						%li.item
+							%ol
+								%li
+									.img Imagen
+								%li	
+									.product.name Nombre del Producto
+								%li
+									.product.status Estado del Producto
+								%li	
+									.product.availability Disponibilidad del Producto
+								%li
+									.product.actions
+										%a.edit{:href => "#"} Editar
+										%a.delete{:href => "#"} Borrar

@@ -33,3 +33,88 @@ $border-size: 15px;
 #occasion_select{
 	margin-left: 4.6em;
 }
+
+//products styles
+
+.grid.products{
+	margin-top: 2.5em;
+}
+
+//setting the styles for the list items
+.explanation{
+	ol li {
+		display: inline-block;
+		width: 182px;
+		height: auto;
+		text-align:center;
+		padding: 0.25em;
+	}
+}
+
+.symbols{
+	//size of the container
+	width: 60px;
+	height: 30px;
+	margin: 0 auto;
+	&.status{
+
+	}
+	&.availability{
+
+	}
+	&.actions{
+
+	}
+}
+
+.item{
+	padding: 1em 0;
+	//image
+	& .img{
+		width: 60px;
+		height: 60px;
+		background: #333;
+		margin: 0 auto;
+		text-indent: -9999px;
+	}
+	//product texts
+	& .product{
+
+		& .name{
+
+		}
+		& .status{
+
+		}
+		& .availability{
+
+		}
+		& .actions{
+			
+			& .edit{
+
+			}
+			& .delete{
+
+			}
+		}
+	}
+
+	//list styles
+	&:hover{
+		background: rgba(#000,0.15)
+	}
+	&:nth-child(odd){
+		background: lighten($base, 45%);
+		&:hover{
+			background: rgba(#000,0.15)
+		}
+	}
+	ol li {
+		display: inline-block;
+		width: 182px;
+		height: auto;
+		text-align:center;
+		padding: 0.25em;
+	}
+}
