@@ -19,14 +19,15 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	%body
 		/base header
-		.wrapper
-			%header.main.top_gradient
-				%a.logo{:href => "#"} Karizmi
-				.session
-					%p 
-						Bienvenido,
-						%span <Nombre de usuario>
-						%a{:href => "#"} Cerrar sesión
+		.container.top_gradient
+			.wrapper
+				%header.main
+					%a.logo{:href => "#"} Karizmi
+					.session
+						%p 
+							Bienvenido,
+							%span <Nombre de usuario>
+							%a{:href => "#"} Cerrar sesión
 		/main navigation
 		.container
 			%nav.menu

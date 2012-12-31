@@ -176,9 +176,18 @@ table {
   padding: 0.25em; }
 
 .symbols {
-  width: 60px;
-  height: 30px;
-  margin: 0 auto; }
+  background: url(../img/admin_items.png);
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  position: relative;
+  top: 3px; }
+  .symbols.status {
+    background-position: -173px -67px; }
+  .symbols.availability {
+    background-position: -206px -67px; }
+  .symbols.actions {
+    background-position: -400px -34px; }
 
 .item {
   padding: 1em 0; }
@@ -204,6 +213,28 @@ table {
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 16px; }
+
+header.main {
+  height: 164px; }
+
+.top_gradient {
+  margin-bottom: -1em;
+  background: #fff; }
+  .top_gradient.container {
+    height: 178px; }
+
+.logo {
+  position: absolute;
+  left: 8em;
+  background: url(../img/logo_columna.gif) no-repeat;
+  width: 210px;
+  height: 222px;
+  text-indent: -9999px; }
+
+.session {
+  position: relative;
+  top: 1em;
+  float: right; }
 
 .linear-greys {
   background: #ffffff;

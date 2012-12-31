@@ -53,17 +53,20 @@ $border-size: 15px;
 
 .symbols{
 	//size of the container
-	width: 60px;
-	height: 30px;
+	background: url(../img/admin_items.png);
+	width: 32px;
+	height: 32px;
 	margin: 0 auto;
+	position: relative;
+	top: 3px;
 	&.status{
-
+		background-position: -173px -67px;
 	}
 	&.availability{
-
+		background-position: -206px -67px;
 	}
 	&.actions{
-
+		background-position: -400px -34px;
 	}
 }
 
