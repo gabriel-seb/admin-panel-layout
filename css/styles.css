@@ -177,17 +177,19 @@ table {
 
 .symbols {
   background: url(../img/admin_items.png);
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
+  width: 16px;
+  height: 16px;
   position: relative;
-  top: 3px; }
+  top: -17px;
+  left: 13px; }
   .symbols.status {
-    background-position: -173px -67px; }
+    background-position: -86px -34px;
+    left: 36px; }
   .symbols.availability {
-    background-position: -206px -67px; }
+    background-position: -104px -34px; }
   .symbols.actions {
-    background-position: -400px -34px; }
+    background-position: -200px -17px;
+    left: 32px; }
 
 .item {
   padding: 1em 0; }
