@@ -1,0 +1,35 @@
+//variables
+$base: #17b2e4;
+$border-size: 15px;
+
+.filters{
+	width: 50%;
+	margin: 0 auto;
+	padding: 0.85em 1em;
+	border: 1px lighten($base, 45%) solid;
+	border-bottom-right-radius:$border-size;
+	border-bottom-left-radius:$border-size;
+	& h2{
+		font-size: 1.1em;
+	}
+
+	& h4{
+		font-size: 0.8em;
+	}
+	& select{
+		text-align:right;
+	}
+}
+
+//setting the margins for the filters select boxes
+#status_select{
+	margin-left: 5em;
+}
+
+#availability_select{
+	margin-left: 1.4em;
+}
+
+#occasion_select{
+	margin-left: 4.6em;
+}

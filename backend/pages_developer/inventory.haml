@@ -74,22 +74,24 @@
 								%a{:href =>"#"} Impuestos
 		.wrapper
 			/filters div
-			.grid
-				.cols-1-3
+			.grid.filters.linear-greys
+				.cols-2-3
 					%h2 Productos
-					%h4 Estatus
-					%h4 Disponibilidad
-					%h4 Ocasión
+					%h4 
+						Estatus
+						%select#status_select
+							%option Seleccione..
+					%h4 
+						Disponibilidad
+						%select#availability_select
+							%option Seleccione..
+					%h4 
+						Ocasión
+						%select#occasion_select
+							%option Seleccione..
 				.cols-1-3
-					%select#status_select
-						%option Seleccione..
-					%select#availability_select
-						%option Seleccione..
-					%select#occasion_select
-						%option Seleccione..
-				.cols-1-3
-					.button.blue.small Buscar
-					.button.blue.small Crear
+					%a.button.orange.small{:href => "#"} Buscar
+					%a.button.orange.small{:href => "#"} Crear
 			/products grid
 			.grid
 				.cols-1-1

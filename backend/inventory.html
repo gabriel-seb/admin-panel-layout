@@ -101,27 +101,31 @@
     </div>
     <div class="wrapper">
       <!-- filters div -->
-      <div class="grid">
-        <div class="cols-1-3">
+      <div class="grid filters linear-greys">
+        <div class="cols-2-3">
           <h2>Productos</h2>
-          <h4>Estatus</h4>
-          <h4>Disponibilidad</h4>
-          <h4>Ocasión</h4>
+          <h4>
+            Estatus
+            <select id="status_select">
+              <option>Seleccione..</option>
+            </select>
+          </h4>
+          <h4>
+            Disponibilidad
+            <select id="availability_select">
+              <option>Seleccione..</option>
+            </select>
+          </h4>
+          <h4>
+            Ocasión
+            <select id="occasion_select">
+              <option>Seleccione..</option>
+            </select>
+          </h4>
         </div>
         <div class="cols-1-3">
-          <select id="status_select">
-            <option>Seleccione..</option>
-          </select>
-          <select id="availability_select">
-            <option>Seleccione..</option>
-          </select>
-          <select id="occasion_select">
-            <option>Seleccione..</option>
-          </select>
-        </div>
-        <div class="cols-1-3">
-          <div class="button blue small">Buscar</div>
-          <div class="button blue small">Crear</div>
+          <a class="button orange small" href="#">Buscar</a>
+          <a class="button orange small" href="#">Crear</a>
         </div>
       </div>
       <!-- products grid -->
