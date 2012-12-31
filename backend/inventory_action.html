@@ -12,7 +12,7 @@
     <meta content="width=device-width" name="viewport">
     <title>Bienvenido, <name></title>
     <!-- Included CSS Files (Compressed) -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>  <![endif]-->
@@ -31,9 +31,11 @@
           </p>
         </div>
       </header>
-      <!-- main navigation -->
-      <nav>
-        <ul>
+    </div>
+    <!-- main navigation -->
+    <div class="container">
+      <nav class="menu">
+        <ul id="main_nav">
           <li>
             <a href="#">Órdenes</a>
           </li>
@@ -95,68 +97,70 @@
             </ul>
           </li>
         </ul>
-        <!-- new product creation form -->
-        <div class="grid">
-          <!-- first column -->
-          <div class="cols-1-2">
-            <h2>Crear un producto nuevo</h2>
-            <form>
-              <input placeholder="Nombre del Artículo" type="text">
-              <textarea cols="4" placeholder="Descripción del producto" rows="2"></textarea>
-              <!-- flower types -->
-              <h4>Flores</h4>
-              <select id="flowers_select">
-                <option>Seleccione..</option>
-              </select>
-              <input id="flower_add" type="submit" value="Añadir">
-              <!-- ocassions -->
-              <h4>Ocasiones</h4>
-              <select id="occasions_select">
-                <option>Seleccione..</option>
-              </select>
-              <input id="occassion_add" type="submit" value="Añadir">
-            </form>
-          </div>
-          <!-- second column -->
-          <div class="cols-1-2">
-            <!-- status -->
-            <select id="status_select">
-              <option>Estatus</option>
-            </select>
-            <input id="status_add" type="submit" value="Añadir">
-            <!-- availability -->
-            <select id="availability_select">
-              <option>Disponibilidad</option>
-            </select>
-            <input id="availability_add" type="submit" value="Añadir">
-            <!-- sizes -->
-            <h4>Tamaños</h4>
-            <select id="sizes_select">
-              <option>Seleccione..</option>
-            </select>
-            <input id="size_price_add" type="submit" value="Precio">
-            <input id="size_add" type="submit" value="Añadir">
-            <!-- colors -->
-            <h4>Colores</h4>
-            <select id="colors_select">
-              <option>Seleccione..</option>
-            </select>
-            <input id="color_add" type="submit" value="Añadir">
-            <!-- accessories -->
-            <h4>Accesorios</h4>
-            <select id="accessories_select">
-              <option>Seleccione..</option>
-            </select>
-            <input id="accessory_add" type="submit" value="Añadir">
-          </div>
-        </div>
-        <!-- button add and other actions -->
-        <div class="grid">
-          <div class="cols-1-1">
-            <input id="submit_form" type="submit" value="Agregar producto">
-          </div>
-        </div>
       </nav>
+    </div>
+    <div class="wrapper">
+      <!-- new product creation form -->
+      <div class="grid">
+        <!-- first column -->
+        <div class="cols-1-2">
+          <h2>Crear un producto nuevo</h2>
+          <form>
+            <input placeholder="Nombre del Artículo" type="text">
+            <textarea cols="4" placeholder="Descripción del producto" rows="2"></textarea>
+            <!-- flower types -->
+            <h4>Flores</h4>
+            <select id="flowers_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="flower_add" type="submit" value="Añadir">
+            <!-- ocassions -->
+            <h4>Ocasiones</h4>
+            <select id="occasions_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="occassion_add" type="submit" value="Añadir">
+          </form>
+        </div>
+        <!-- second column -->
+        <div class="cols-1-2">
+          <!-- status -->
+          <select id="status_select">
+            <option>Estatus</option>
+          </select>
+          <input id="status_add" type="submit" value="Añadir">
+          <!-- availability -->
+          <select id="availability_select">
+            <option>Disponibilidad</option>
+          </select>
+          <input id="availability_add" type="submit" value="Añadir">
+          <!-- sizes -->
+          <h4>Tamaños</h4>
+          <select id="sizes_select">
+            <option>Seleccione..</option>
+          </select>
+          <input id="size_price_add" type="submit" value="Precio">
+          <input id="size_add" type="submit" value="Añadir">
+          <!-- colors -->
+          <h4>Colores</h4>
+          <select id="colors_select">
+            <option>Seleccione..</option>
+          </select>
+          <input id="color_add" type="submit" value="Añadir">
+          <!-- accessories -->
+          <h4>Accesorios</h4>
+          <select id="accessories_select">
+            <option>Seleccione..</option>
+          </select>
+          <input id="accessory_add" type="submit" value="Añadir">
+        </div>
+      </div>
+      <!-- button add and other actions -->
+      <div class="grid">
+        <div class="cols-1-1">
+          <input id="submit_form" type="submit" value="Agregar producto">
+        </div>
+      </div>
     </div>
   </body>
 </html>

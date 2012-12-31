@@ -12,7 +12,7 @@
     <meta content="width=device-width" name="viewport">
     <title>Bienvenido, <name></title>
     <!-- Included CSS Files (Compressed) -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>  <![endif]-->
@@ -31,9 +31,11 @@
           </p>
         </div>
       </header>
-      <!-- main navigation -->
-      <nav>
-        <ul>
+    </div>
+    <!-- main navigation -->
+    <div class="container">
+      <nav class="menu">
+        <ul id="main_nav">
           <li>
             <a href="#">Órdenes</a>
           </li>
@@ -95,11 +97,35 @@
             </ul>
           </li>
         </ul>
-        <!-- category section -->
-        <div class="grid">
-          <div class="cols-1-1"></div>
-        </div>
       </nav>
+    </div>
+    <div class="wrapper">
+      <!-- category section -->
+      <div class="grid">
+        <div class="cols-1-1">
+          <header>
+            <h4>Sección</h4>
+            <h6>Ordenar por:</h6>
+            <select>
+              <option>Nombre de A-Z</option>
+              <option>Nombre de Z-A</option>
+            </select>
+          </header>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="cols-1-1">
+          <ul>
+            <li>
+              <h4 class="type">Nombre</h4>
+              <div class="categories actions">
+                <a class="edit" href="#">Editar</a>
+                <a class="delete" href="#">Borrar</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -12,7 +12,7 @@
 		%meta{:content => "width=device-width", :name => "viewport"}/
 		%title Bienvenido, <name>
 		/ Included CSS Files (Compressed)
-		%link{:href => "css/styles.css", :rel => "stylesheet"}
+		%link{:href => "../css/styles.css", :rel => "stylesheet"}
 		%link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
 		/ IE Fix for HTML5 Tags
 		/ [if lt IE 9]
@@ -27,9 +27,10 @@
 						Bienvenido,
 						%span <Nombre de usuario>
 						%a{:href => "#"} Cerrar sesión
-			/main navigation
-			%nav
-				%ul
+		/main navigation
+		.container
+			%nav.menu
+				%ul#main_nav
 					%li
 						%a{:href =>"#"} Órdenes
 					/parent
@@ -71,3 +72,4 @@
 								%a{:href =>"#"} Envíos
 							%li
 								%a{:href =>"#"} Impuestos
+		.wrapper

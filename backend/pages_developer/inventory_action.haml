@@ -12,7 +12,7 @@
 		%meta{:content => "width=device-width", :name => "viewport"}/
 		%title Bienvenido, <name>
 		/ Included CSS Files (Compressed)
-		%link{:href => "css/styles.css", :rel => "stylesheet"}
+		%link{:href => "../css/styles.css", :rel => "stylesheet"}
 		%link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
 		/ IE Fix for HTML5 Tags
 		/ [if lt IE 9]
@@ -27,9 +27,10 @@
 						Bienvenido,
 						%span <Nombre de usuario>
 						%a{:href => "#"} Cerrar sesión
-			/main navigation
-			%nav
-				%ul
+		/main navigation
+		.container
+			%nav.menu
+				%ul#main_nav
 					%li
 						%a{:href =>"#"} Órdenes
 					/parent
@@ -71,57 +72,58 @@
 								%a{:href =>"#"} Envíos
 							%li
 								%a{:href =>"#"} Impuestos
-				/new product creation form
-				.grid
-					/first column
-					.cols-1-2
-						%h2 Crear un producto nuevo
-						%form
-							%input{:placeholder => "Nombre del Artículo", :type => "text"}
-							%textarea{:placeholder => "Descripción del producto", :cols => "4", :rows => "2"}
+		.wrapper
+			/new product creation form
+			.grid
+				/first column
+				.cols-1-2
+					%h2 Crear un producto nuevo
+					%form
+						%input{:placeholder => "Nombre del Artículo", :type => "text"}
+						%textarea{:placeholder => "Descripción del producto", :cols => "4", :rows => "2"}
 
-							/flower types
-							%h4 Flores
-							%select#flowers_select
-								%option Seleccione..
-							%input#flower_add{:value => "Añadir", :type => "submit"}
-							
-							/ocassions
-							%h4 Ocasiones
-							%select#occasions_select
-								%option Seleccione..
-							%input#occassion_add{:value => "Añadir", :type => "submit"}
-					/second column
-					.cols-1-2
-						/status
-						%select#status_select
-							%option Estatus
-						%input#status_add{:value => "Añadir", :type => "submit"}
-						
-						/availability
-						%select#availability_select
-							%option Disponibilidad
-						%input#availability_add{:value => "Añadir", :type => "submit"}
-						
-						/sizes
-						%h4 Tamaños
-						%select#sizes_select
+						/flower types
+						%h4 Flores
+						%select#flowers_select
 							%option Seleccione..
-						%input#size_price_add{:value => "Precio", :type => "submit"}
-						%input#size_add{:value => "Añadir", :type => "submit"}
+						%input#flower_add{:value => "Añadir", :type => "submit"}
 						
-						/colors
-						%h4 Colores
-						%select#colors_select
+						/ocassions
+						%h4 Ocasiones
+						%select#occasions_select
 							%option Seleccione..
-						%input#color_add{:value => "Añadir", :type => "submit"}
+						%input#occassion_add{:value => "Añadir", :type => "submit"}
+				/second column
+				.cols-1-2
+					/status
+					%select#status_select
+						%option Estatus
+					%input#status_add{:value => "Añadir", :type => "submit"}
+					
+					/availability
+					%select#availability_select
+						%option Disponibilidad
+					%input#availability_add{:value => "Añadir", :type => "submit"}
+					
+					/sizes
+					%h4 Tamaños
+					%select#sizes_select
+						%option Seleccione..
+					%input#size_price_add{:value => "Precio", :type => "submit"}
+					%input#size_add{:value => "Añadir", :type => "submit"}
+					
+					/colors
+					%h4 Colores
+					%select#colors_select
+						%option Seleccione..
+					%input#color_add{:value => "Añadir", :type => "submit"}
 
-						/accessories
-						%h4 Accesorios
-						%select#accessories_select
-							%option Seleccione..
-						%input#accessory_add{:value => "Añadir", :type => "submit"}
-				/button add and other actions
-				.grid
-					.cols-1-1
-						%input#submit_form{:value => "Agregar producto", :type => "submit"}
+					/accessories
+					%h4 Accesorios
+					%select#accessories_select
+						%option Seleccione..
+					%input#accessory_add{:value => "Añadir", :type => "submit"}
+			/button add and other actions
+			.grid
+				.cols-1-1
+					%input#submit_form{:value => "Agregar producto", :type => "submit"}
