@@ -101,13 +101,13 @@
         </ul>
       </nav>
     </div>
-    <div class="wrapper">
+    <div class="wrapper main">
       <!-- new product creation form -->
       <div class="grid">
         <!-- first column -->
-        <div class="cols-1-2">
-          <h2>Crear un producto nuevo</h2>
-          <form>
+        <form id="main-form">
+          <div class="cols-1-2">
+            <h2>Crear un producto nuevo</h2>
             <input placeholder="Nombre del Artículo" type="text">
             <textarea cols="4" placeholder="Descripción del producto" rows="2"></textarea>
             <!-- flower types -->
@@ -116,51 +116,57 @@
               <option>Seleccione..</option>
             </select>
             <input id="flower_add" type="submit" value="Añadir">
+            <select id="flower_added" multiple="multiple"></select>
             <!-- ocassions -->
             <h4>Ocasiones</h4>
             <select id="occasions_select">
               <option>Seleccione..</option>
             </select>
             <input id="occassion_add" type="submit" value="Añadir">
-          </form>
-        </div>
-        <!-- second column -->
-        <div class="cols-1-2">
-          <!-- status -->
-          <select id="status_select">
-            <option>Estatus</option>
-          </select>
-          <input id="status_add" type="submit" value="Añadir">
-          <!-- availability -->
-          <select id="availability_select">
-            <option>Disponibilidad</option>
-          </select>
-          <input id="availability_add" type="submit" value="Añadir">
-          <!-- sizes -->
-          <h4>Tamaños</h4>
-          <select id="sizes_select">
-            <option>Seleccione..</option>
-          </select>
-          <input id="size_price_add" type="submit" value="Precio">
-          <input id="size_add" type="submit" value="Añadir">
-          <!-- colors -->
-          <h4>Colores</h4>
-          <select id="colors_select">
-            <option>Seleccione..</option>
-          </select>
-          <input id="color_add" type="submit" value="Añadir">
-          <!-- accessories -->
-          <h4>Accesorios</h4>
-          <select id="accessories_select">
-            <option>Seleccione..</option>
-          </select>
-          <input id="accessory_add" type="submit" value="Añadir">
-        </div>
+            <select id="occassion_added" multiple="multiple"></select>
+            <!-- accessories -->
+            <h4>Accesorios</h4>
+            <select id="accessories_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="accessory_add" type="submit" value="Añadir">
+            <select id="accessory_added" multiple="multiple"></select>
+          </div>
+          <!-- second column -->
+          <div class="cols-1-2">
+            <!-- status -->
+            <select id="status_select">
+              <option>Estatus</option>
+            </select>
+            <input id="status_add" type="submit" value="Añadir">
+            <br>
+            <!-- availability -->
+            <select id="availability_select">
+              <option>Disponibilidad</option>
+            </select>
+            <input id="availability_add" type="submit" value="Añadir">
+            <!-- sizes -->
+            <h4 id="title-fix">Tamaños</h4>
+            <select id="sizes_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="size_price_add" type="submit" value="Precio">
+            <input id="size_add" type="submit" value="Añadir">
+            <select id="size_added" multiple="multiple"></select>
+            <!-- colors -->
+            <h4>Colores</h4>
+            <select id="colors_select">
+              <option>Seleccione..</option>
+            </select>
+            <input id="color_add" type="submit" value="Añadir">
+            <select id="color_added" multiple="multiple"></select>
+          </div>
+        </form>
       </div>
       <!-- button add and other actions -->
       <div class="grid">
-        <div class="cols-1-1">
-          <input id="submit_form" type="submit" value="Agregar producto">
+        <div class="cols-1-1 text-center">
+          <input class="orange" id="submit_form" type="submit" value="Agregar producto">
         </div>
       </div>
     </div>

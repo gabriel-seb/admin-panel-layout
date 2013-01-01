@@ -73,13 +73,14 @@
 								%a{:href =>"#"} Envíos
 							%li
 								%a{:href =>"#"} Impuestos
-		.wrapper
+		.wrapper.main
 			/new product creation form
 			.grid
 				/first column
-				.cols-1-2
-					%h2 Crear un producto nuevo
-					%form
+				%form#main-form
+					.cols-1-2
+						%h2 Crear un producto nuevo
+						
 						%input{:placeholder => "Nombre del Artículo", :type => "text"}
 						%textarea{:placeholder => "Descripción del producto", :cols => "4", :rows => "2"}
 
@@ -88,43 +89,51 @@
 						%select#flowers_select
 							%option Seleccione..
 						%input#flower_add{:value => "Añadir", :type => "submit"}
+						%select#flower_added{:multiple => "multiple"}
 						
 						/ocassions
 						%h4 Ocasiones
 						%select#occasions_select
 							%option Seleccione..
 						%input#occassion_add{:value => "Añadir", :type => "submit"}
-				/second column
-				.cols-1-2
-					/status
-					%select#status_select
-						%option Estatus
-					%input#status_add{:value => "Añadir", :type => "submit"}
-					
-					/availability
-					%select#availability_select
-						%option Disponibilidad
-					%input#availability_add{:value => "Añadir", :type => "submit"}
-					
-					/sizes
-					%h4 Tamaños
-					%select#sizes_select
-						%option Seleccione..
-					%input#size_price_add{:value => "Precio", :type => "submit"}
-					%input#size_add{:value => "Añadir", :type => "submit"}
-					
-					/colors
-					%h4 Colores
-					%select#colors_select
-						%option Seleccione..
-					%input#color_add{:value => "Añadir", :type => "submit"}
+						%select#occassion_added{:multiple => "multiple"}
 
-					/accessories
-					%h4 Accesorios
-					%select#accessories_select
-						%option Seleccione..
-					%input#accessory_add{:value => "Añadir", :type => "submit"}
+						/accessories
+						%h4 Accesorios
+						%select#accessories_select
+							%option Seleccione..
+						%input#accessory_add{:value => "Añadir", :type => "submit"}
+						%select#accessory_added{:multiple => "multiple"}
+
+					/second column
+					.cols-1-2
+						/status
+						%select#status_select
+							%option Estatus
+						%input#status_add{:value => "Añadir", :type => "submit"}
+						%br
+
+						/availability
+						%select#availability_select
+							%option Disponibilidad
+						%input#availability_add{:value => "Añadir", :type => "submit"}
+						
+						/sizes
+						%h4#title-fix Tamaños
+						%select#sizes_select
+							%option Seleccione..
+						%input#size_price_add{:value => "Precio", :type => "submit"}
+						%input#size_add{:value => "Añadir", :type => "submit"}
+						%select#size_added{:multiple => "multiple"}
+						
+						/colors
+						%h4 Colores
+						%select#colors_select
+							%option Seleccione..
+						%input#color_add{:value => "Añadir", :type => "submit"}
+						%select#color_added{:multiple => "multiple"}
+
 			/button add and other actions
 			.grid
-				.cols-1-1
-					%input#submit_form{:value => "Agregar producto", :type => "submit"}
+				.cols-1-1.text-center
+					%input#submit_form.orange{:value => "Agregar producto", :type => "submit"}

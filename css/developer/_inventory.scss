@@ -1,6 +1,7 @@
 //variables
 $base: #17b2e4;
 $border-size: 15px;
+$pad: 1.5em;
 
 .filters{
 	width: 50%;
@@ -116,4 +117,64 @@ $border-size: 15px;
 		text-align:center;
 		padding: 0.25em;
 	}
+}
+
+//inventory_action styles
+
+.wrapper.main{
+	margin: $pad auto 0;
+}
+
+#main-form{
+	padding: 0.85em 1em;
+	//texts
+	h2{
+
+	}
+	h4{
+
+	}
+
+	#title-fix{
+		margin-top: 1em;
+	}
+
+	//inside elements
+	& input[type="text"]{
+		width: 96%;
+		margin: $pad auto;
+	}
+	& select {
+		width: 65%;
+		margin: $pad auto;
+		&#sizes_select{
+			width: 35%;
+		}
+		&[multiple="multiple"]{
+			width: 96%;
+		}
+	}
+	& input[type="submit"]{
+		width: 30%;
+		margin: $pad auto;
+	}
+
+	& textarea{
+		width: 96%;
+		margin: $pad auto;
+	}
+
+	& #status_select{
+		margin: 2.9em auto $pad;
+	}
+
+	& #availability_select{
+		margin: $pad auto;
+	}
+}
+
+#submit_form{
+	border:none;
+	height: 30px;
+	width: 25%;
 }

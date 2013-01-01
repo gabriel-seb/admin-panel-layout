@@ -212,6 +212,39 @@ table {
     text-align: center;
     padding: 0.25em; }
 
+.wrapper.main {
+  margin: 1.5em auto 0; }
+
+#main-form {
+  padding: 0.85em 1em; }
+  #main-form #title-fix {
+    margin-top: 1em; }
+  #main-form input[type="text"] {
+    width: 96%;
+    margin: 1.5em auto; }
+  #main-form select {
+    width: 65%;
+    margin: 1.5em auto; }
+    #main-form select#sizes_select {
+      width: 35%; }
+    #main-form select[multiple="multiple"] {
+      width: 96%; }
+  #main-form input[type="submit"] {
+    width: 30%;
+    margin: 1.5em auto; }
+  #main-form textarea {
+    width: 96%;
+    margin: 1.5em auto; }
+  #main-form #status_select {
+    margin: 2.9em auto 1.5em; }
+  #main-form #availability_select {
+    margin: 1.5em auto; }
+
+#submit_form {
+  border: none;
+  height: 30px;
+  width: 25%; }
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, serif;
   font-size: 16px; }
@@ -237,6 +270,9 @@ header.main {
   position: relative;
   top: 1em;
   float: right; }
+
+.text-center {
+  text-align: center; }
 
 .linear-greys {
   background: #ffffff;
