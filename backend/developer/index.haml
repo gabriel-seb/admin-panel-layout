@@ -19,11 +19,56 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	%body
 		/application header
+		%header
+			.wrapper
+				.grid
+					.cols1-1
+						.logo Logo de Karizmi
+						%nav
+							%ul
+								%li
+									%a{:href => "#"} Inventario
+								%li
+									%a{:href => "#"} Ventas
+								%li
+									%a{:href => "#"} Diseño
+								%li
+									%a{:href => "#"} Sistema
+						.user
+							%p
+								Bienvenido,
+								%span <nombre>
 		.container
-			.grid
-				.cols1-1
-					.logo Logo de Karizmi
-					%nav
-						%ul
-							%li
-								%a{:href => "#"}
+			.wrapper
+				.grid
+					.cols-1-2
+						.square
+							.title
+								Titulo del cuadro
+							.content
+								Contenido
+					.cols-1-2
+						.square
+							.title
+								Titulo del cuadro
+							.content
+								Contenido
+					.grid
+					.cols-1-2
+						.square
+							.title
+								Titulo del cuadro
+							.content
+								Contenido
+					.cols-1-2
+						.square
+							.title
+								Titulo del cuadro
+							.content
+								Contenido
+			%footer
+				.wrapper
+					.grid
+						.cols-1-1
+							%p
+								Informacion confidencial
