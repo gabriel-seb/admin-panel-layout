@@ -1,4 +1,4 @@
-@import "reset", "grid", "colors", "menu";
+@import "reset", "grid", "colors", "menu", "buttons";
 
 //variables
 
@@ -66,5 +66,37 @@ footer{
 	}
 	& .content{
 		padding: 1em;
+	}
+}
+
+#actions{
+	margin: 0 auto;
+	line-height: 3em;
+	& .small{
+		float: right;
+		margin: 0.5em 0 0.5em 0.8em;
+	}
+}
+
+.filters{
+	font-size: 0.95em;
+	text-align: justify;
+	color: $light-gray;
+	line-height: 2em;
+	width: 80%;
+	margin: 0 0 0 3.7em;
+	& select{
+		float: right;
+		margin: 5px 0;
+	}
+	& input[value*='Ver']{
+		margin: 0.8em auto 0;
+	}
+}
+
+table{
+	width: 100%;
+	& input[type*="checkbox"]{
+		margin: 0 auto;
 	}
 }

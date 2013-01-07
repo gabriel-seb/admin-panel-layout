@@ -48,34 +48,54 @@
 		.container
 			.wrapper
 				.grid
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
+					#actions
+						.cols-1-2
+							%h2 
+								Producto
+						.cols-1-2
+							%input.button.small.light_blue{:value => "Eliminar", :type => "button"}
+							%input.button.small.light_blue{:value => "Modificar", :type => "button"}
+							%input.button.small.light_blue{:value => "Nuevo", :type => "button"}
 				.grid
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
-			%footer
-				.wrapper
-					.grid
-						.cols-1-1
-							%p
-								Información confidencial
+					.cols-3-4
+						%table
+							%thead
+								%tr
+									%th
+										&#9660
+									%th
+										Imagen
+									%th
+										Nombre
+									%th
+										Estatus
+									%th
+										Disponibilidad
+									%th
+										Acciones
+							%tbody
+								%tr
+									%td
+										%input{:type => "checkbox"}
+					.cols-1-4
+						.filters
+							%form
+								%h4
+									Estatus
+									%select
+										%option Seleccione...
+								%h4
+									Disponibilidad
+									%select
+										%option Seleccione...
+								%h4
+									Nombre
+									%select
+										%option Seleccione...
+								%input.button.small.light_blue{:value => "Ver", :type => "Submit"}
+				%footer
+					.wrapper
+						.grid
+							.cols-1-1
+								%p
+									Información confidencial
