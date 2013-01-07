@@ -4,86 +4,310 @@
 		"selected_items":
 		[
 			[
-				"po",
-				"pointer"
+				"marg",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-indent"
 			],
 			[
 				"mar",
 				"margin"
 			],
 			[
+				"margi",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"cols",
+				"cols-1-3"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"conta",
+				"contact-button"
+			],
+			[
+				"st",
+				"state"
+			],
+			[
+				"ste",
+				"street"
+			],
+			[
+				"com",
+				"comp_zipcode"
+			],
+			[
+				"social",
+				"socialname"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fn",
+				"font-style"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"scr",
+				"screen"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"li",
+				"light-base"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"lig",
+				"lighten"
+			],
+			[
+				"base",
+				"base"
+			],
+			[
+				"lin",
+				"base-link"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bas",
+				"base"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"main",
+				"main-form"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"tran",
+				"webkit-transition"
+			],
+			[
+				"jus",
+				"justify"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"break",
+				"break-large"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"logo",
+				"logo-gru"
+			],
+			[
 				"wi",
 				"width"
 			],
 			[
-				"he",
-				"height"
-			],
-			[
-				"font",
-				"font-weight"
-			],
-			[
-				"tex",
-				"text-align"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"bac",
-				"background-color"
+				"ma",
+				"margin-fixed"
 			],
 			[
 				"fon",
-				"font-size"
+				"font-weight"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.php",
+			"file": "backend/pages_developer/index.haml",
 			"settings":
 			{
-				"buffer_size": 7168,
-				"line_ending": "Windows"
+				"buffer_size": 1902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/developer/_menu.scss",
+			"settings":
+			{
+				"buffer_size": 1898,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/developer/styles.scss",
+			"settings":
+			{
+				"buffer_size": 4178,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/inventory.haml",
+			"settings":
+			{
+				"buffer_size": 4171,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/inventory_action.haml",
+			"settings":
+			{
+				"buffer_size": 3821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/inventory_image.haml",
+			"settings":
+			{
+				"buffer_size": 2315,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/developer/_inventory.scss",
+			"settings":
+			{
+				"buffer_size": 2266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/categories.haml",
+			"settings":
+			{
+				"buffer_size": 2240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/layout_action.haml",
+			"settings":
+			{
+				"buffer_size": 1902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/layout.haml",
+			"settings":
+			{
+				"buffer_size": 1902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "backend/pages_developer/categories_action.haml",
+			"settings":
+			{
+				"buffer_size": 1902,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/developer/_grid.scss",
+			"settings":
+			{
+				"buffer_size": 521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/developer/_backend.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 47.0,
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"Install",
-				"Package Control: Install Package"
-			],
-			[
-				"INSTA",
-				"Package Control: Install Package"
+				"ham",
+				"Set Syntax: Ruby Haml"
 			]
 		],
-		"width": 528.0
+		"width": 392.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -96,30 +320,77 @@
 	},
 	"file_history":
 	[
-		"/C/xampp/htdocs/KarizmiWeb/css/Home.css",
-		"/C/xampp/htdocs/KarizmiWeb/codes/header.php",
-		"/C/xampp/htdocs/KarizmiWeb/index.php",
-		"/C/xampp/htdocs/KarizmiWeb/css/Style.css",
-		"/C/xampp/htdocs/KarizmiWeb/css/MyCart.css",
-		"/C/xampp/htdocs/KarizmiWeb/Product.php",
-		"/C/xampp/htdocs/KarizmiWeb/datepicker.html",
-		"/C/xampp/htdocs/KarizmiWeb/css/AddConfirm.css",
-		"/C/xampp/htdocs/KarizmiWeb/js/HomeSlider.js",
-		"/C/xampp/htdocs/KarizmiWeb/js/ProductAdd.js",
-		"/C/xampp/htdocs/KarizmiWeb/css/Product.css",
-		"/C/xampp/htdocs/KarizmiWeb/codes/footer.php",
-		"/C/Users/Edgardo Altuve/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
-		"/C/xampp/htdocs/NidalNouaihed/Galeria.php"
+		"/Users/luiscastro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/index.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/categories_action.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/layout.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/layout_action.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/categories.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/inventory_image.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/accessories.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/products.haml",
+		"/Users/luiscastro/Repos/refreshpage/stylesheets/custom.scss",
+		"/Users/luiscastro/Repos/Grutel/app/assets/stylesheets/pages.css.scss",
+		"/Users/luiscastro/Repos/KarizmiWeb/css/Product.css",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/_mailer_head",
+		"/Users/luiscastro/Repos/Grutel/app/assets/javascripts/validations.js",
+		"/Users/luiscastro/Repos/sh_produccion/slider.html",
+		"/Users/luiscastro/Repos/sh_produccion/js/jquery.js",
+		"/Users/luiscastro/Repos/refreshpage/README.md",
+		"/Users/luiscastro/Repos/refreshval/README.md",
+		"/Users/luiscastro/Repos/refreshpage/index.haml",
+		"/Users/luiscastro/Repos/refreshpage/index.html",
+		"/Users/luiscastro/Repos/refreshpage/stylesheets/reset.scss",
+		"/Users/luiscastro/Repos/refreshpage/stylesheets/mixings.scss",
+		"/Users/luiscastro/Repos/refreshpage/stylesheets/grid.scss",
+		"/Users/luiscastro/Repos/refreshpage/stylesheets/buttons.scss",
+		"/Users/luiscastro/Repos/refreshval/index2.html",
+		"/Users/luiscastro/Repos/Grutel/app/assets/javascripts/pages.js",
+		"/Users/luiscastro/Repos/Grutel/app/assets/stylesheets/styles.css.scss",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/application.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/pages/_contact_form.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/mailers/contact_notifier.rb",
+		"/Users/luiscastro/Repos/Grutel/app/assets/stylesheets/base.css.scss",
+		"/Users/luiscastro/Repos/Grutel/app/views/invoice_notifier/new.text.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/contact_notifier/new.text.html.erb",
+		"/Users/luiscastro/Downloads/basic-email-template/stylesheets/email.css",
+		"/Users/luiscastro/Downloads/basic-email-template/basic.html",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/register_modal.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/pages/home.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/paulirish.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/header.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/footer.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/layouts/shim.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/assets/javascripts/pages.js.coffee",
+		"/Users/luiscastro/Repos/Grutel/app/models/contact.rb",
+		"/Users/luiscastro/Repos/Grutel/Gemfile.lock",
+		"/Users/luiscastro/Repos/Grutel/Gemfile",
+		"/Users/luiscastro/Repos/Grutel/app/admin/admin_user.rb",
+		"/Users/luiscastro/Repos/Grutel/app/views/pages/packages.html.erb",
+		"/Users/luiscastro/Repos/Grutel/app/views/pages/register.html.erb",
+		"/Applications/MAMP/bin/php/php5.3.6/conf/php.ini",
+		"/Applications/MAMP/htdocs/config/settings.inc.php",
+		"/Users/luiscastro/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/views/pages/nosotros.html.erb",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/views/pages/contacto.html.erb",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/views/pages/home.html.erb",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/views/layouts/application.html.erb",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/assets/stylesheets/styles.css.scss",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/assets/stylesheets/pages.css.scss",
+		"/Users/luiscastro/Repos/fundacionloscaros/app/assets/stylesheets/styles.css",
+		"/Users/luiscastro/Repos/spree_blue_theme/app/assets/stylesheets/store/screen.css.erb",
+		"/Users/luiscastro/Repos/spree_blue_theme/app/assets/stylesheets/store/spree_blue_theme.scss.css"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -127,14 +398,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"á",
-			"í",
-			"\n<?",
-			"twitter",
-			"transition",
-			"text",
-			"{\n",
-			"                        "
+			"cloud",
+			"$(\".buton.blue\")",
+			"name",
+			"reser",
+			".css",
+			"container",
+			"container whitebg",
+			"container white",
+			"transitions",
+			"padding-fix",
+			"orbit",
+			":hover",
+			"logo-gru",
+			"features",
+			"featured-orbit",
+			"500px",
+			"grey-background",
+			"data",
+			"tab",
+			"sa",
+			"envi",
+			"a:hover",
+			"img",
+			"#"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -142,8 +429,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"&aacute",
-			"&iacute"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -154,15 +439,337 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.php",
+					"file": "backend/pages_developer/index.haml",
 					"settings":
 					{
-						"buffer_size": 7168,
+						"buffer_size": 1902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1902,
+								1902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/developer/_menu.scss",
+					"settings":
+					{
+						"buffer_size": 1898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 461.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/developer/styles.scss",
+					"settings":
+					{
+						"buffer_size": 4178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 776.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "backend/pages_developer/inventory.haml",
+					"settings":
+					{
+						"buffer_size": 4171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4171,
+								4171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1736.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "backend/pages_developer/inventory_action.haml",
+					"settings":
+					{
+						"buffer_size": 3821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1907,
+								1902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 831.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "backend/pages_developer/inventory_image.haml",
+					"settings":
+					{
+						"buffer_size": 2315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2121,
+								2121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 536.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/developer/_inventory.scss",
+					"settings":
+					{
+						"buffer_size": 2266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2221,
+								2221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1856.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "backend/pages_developer/categories.haml",
+					"settings":
+					{
+						"buffer_size": 2240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1902,
+								1902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 473.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "backend/pages_developer/layout_action.haml",
+					"settings":
+					{
+						"buffer_size": 1902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1902,
+								1902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "backend/pages_developer/layout.haml",
+					"settings":
+					{
+						"buffer_size": 1902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1902,
+								1902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 296.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "backend/pages_developer/categories_action.haml",
+					"settings":
+					{
+						"buffer_size": 1902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1902,
+								1902
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/developer/_grid.scss",
+					"settings":
+					{
+						"buffer_size": 521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "css/developer/_backend.scss",
+					"settings":
+					{
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -175,12 +782,10 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 679.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -221,7 +826,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 62.0
+		"height": 0.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -229,25 +834,53 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"coffee",
+				"app/assets/javascripts/pages.js.coffee"
+			],
+			[
+				"gemfi",
+				"Gemfile.lock"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"app",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"",
+				"app/admin/admin_user.rb"
+			],
+			[
+				"styl",
+				"app/assets/stylesheets/styles.css.scss"
+			],
+			[
+				"base",
+				"app/assets/stylesheets/base.css.scss"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
-			[
-				"",
-				"/C/xampp/htdocs/SublimeProjects/Nidal.sublime-project"
-			]
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }
