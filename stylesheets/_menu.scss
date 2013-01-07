@@ -1,0 +1,75 @@
+//variables
+
+//colors
+$base: #1f5070;
+$light-base: #00b0db;
+$light-gray: #808086;
+$dark-gray: #292828;
+
+//others
+
+//code
+
+#main_nav{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	list-style-position:outside;
+	position:relative;
+	line-height:2em;
+	& ul{
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		list-style-position:outside;
+		position:relative;
+		line-height:1.5em;
+	}
+	& a:link, & a:visited, & a:active {
+		display:block;
+		padding:0px 5px;
+		color: #fff;
+		text-decoration:none;
+		width: 150px;
+		text-align: center;
+	}
+
+	& a:hover{
+		color: $light-base;
+	}
+
+	li{
+		float:left;
+		position:relative;
+		& ul{
+			& a:link, & a:visited, & a:active {
+				background: $base;
+			}
+			& ul{
+				left:12em;
+				margin:0px 0 0 10px;
+			}
+			& a{
+				width:12em;
+				float:left;
+			}
+		}
+	}
+
+	ul{
+		position:absolute;
+		width:12em;
+		top:1.5em;
+		display:none;
+		& ul{
+			top: auto;
+		}
+	}
+
+	& li:hover ul ul, & li:hover ul ul ul, & li:hover ul ul ul ul{
+		display:none;
+	}
+	& li:hover ul, & li li:hover ul, & li li li:hover ul, & li li li li:hover ul{
+		display:block;
+	}
+}

@@ -14,26 +14,33 @@
 		/ Included CSS Files (Compressed)
 		%link{:href => "../css/styles.css", :rel => "stylesheet"}
 		%link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
+		%link{:href => "http://fonts.googleapis.com/css?family=Telex", :rel => "stylesheet", :type => "text/css"}
 		/ IE Fix for HTML5 Tags
 		/ [if lt IE 9]
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<style type="text/css">
+		\.gradient {
+		filter: none;
+		}
+		</style>
 	%body
 		/application header
-		%header
+		%header#main_app.blue
 			.wrapper
 				.grid
-					.cols1-1
+					.cols-1-5
 						.logo Logo de Karizmi
-						%nav
-							%ul
-								%li
-									%a{:href => "#"} Inventario
-								%li
-									%a{:href => "#"} Ventas
-								%li
-									%a{:href => "#"} Diseño
-								%li
-									%a{:href => "#"} Sistema
+					%nav.cols-3-5
+						%ul#main_nav
+							%li
+								%a{:href => "#"} Inventario
+							%li
+								%a{:href => "#"} Ventas
+							%li
+								%a{:href => "#"} Diseño
+							%li
+								%a{:href => "#"} Sistema
+					.cols-1-5
 						.user
 							%p
 								Bienvenido,
@@ -42,27 +49,27 @@
 			.wrapper
 				.grid
 					.cols-1-2
-						.square
-							.title
+						.square.gray
+							.title.light_blue
 								Titulo del cuadro
 							.content
 								Contenido
 					.cols-1-2
-						.square
-							.title
+						.square.gray
+							.title.light_blue
 								Titulo del cuadro
 							.content
 								Contenido
-					.grid
+				.grid
 					.cols-1-2
-						.square
-							.title
+						.square.gray
+							.title.light_blue
 								Titulo del cuadro
 							.content
 								Contenido
 					.cols-1-2
-						.square
-							.title
+						.square.gray
+							.title.light_blue
 								Titulo del cuadro
 							.content
 								Contenido

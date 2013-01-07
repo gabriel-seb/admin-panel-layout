@@ -1,4 +1,4 @@
-@import "reset", "grid";
+@import "reset", "grid", "colors", "menu";
 
 //variables
 
@@ -9,4 +9,62 @@ $light-gray: #808086;
 $dark-gray: #292828;
 
 //others
+$border-radius: 5px;
 
+//code
+
+html,body{
+	font-family: "Telex", sans-serif;
+	font-size: 16px;
+}
+
+footer{
+	margin: 2em auto 0;
+	height: 2em;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.logo{
+	background: url(../img/white_logo.png) no-repeat;
+	width: 153px;
+	height: 32px;
+	text-indent: -9999px;
+}
+
+#main_app{
+	height: 4em;
+	vertical-align: middle;
+	padding: 1em 0 1.5em;
+	font-size: 1em;
+	line-height: 2em;
+	color: #fff;
+}
+
+.square{
+	margin: 2em auto 0.5em;
+	width: 90%;
+	height: 300px;
+	font-size: 0.85em;
+	//look
+	border: 1px solid lighten($dark-gray, 65%);
+	-webkit-border-radius: $border-radius;
+	-moz-border-radius: $border-radius;
+	border-radius: $border-radius;
+	& .title{
+		text-align: center;
+		width: 100%;
+		height:2em;
+		line-height: 2em;
+		color: #fff;
+		-webkit-border-top-left-radius: $border-radius;
+		-webkit-border-top-right-radius: $border-radius;
+		-moz-border-radius-topleft: $border-radius;
+		-moz-border-radius-topright: $border-radius;
+		border-top-left-radius: $border-radius;
+		border-top-right-radius: $border-radius;
+	}
+	& .content{
+		padding: 1em;
+	}
+}
