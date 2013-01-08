@@ -3,19 +3,22 @@
 //variables
 
 //colors
-$base: #1f5070;
-$light-base: #00b0db;
-$light-gray: #808086;
+$base: #4383b0;
+$light-base: #5da6c8;
+$secondary: #f9f4e8;
+$light-gray: #d6d9dc;
 $dark-gray: #292828;
 
 //others
 $border-radius: 5px;
+$box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.2);
 
 //code
 
 html,body{
 	font-family: "Telex", sans-serif;
 	font-size: 16px;
+	background: #fdfbf5;
 }
 
 footer{
@@ -39,6 +42,8 @@ footer{
 	font-size: 1em;
 	line-height: 2em;
 	color: #fff;
+	-webkit-box-shadow:  $box-shadow;
+	box-shadow:  $box-shadow;
 }
 
 .square{
@@ -51,52 +56,23 @@ footer{
 	-webkit-border-radius: $border-radius;
 	-moz-border-radius: $border-radius;
 	border-radius: $border-radius;
+	background: lighten($secondary, 5%);
 	& .title{
 		text-align: center;
 		width: 100%;
 		height:2em;
 		line-height: 2em;
-		color: #fff;
+		color: $dark-gray;
 		-webkit-border-top-left-radius: $border-radius;
 		-webkit-border-top-right-radius: $border-radius;
 		-moz-border-radius-topleft: $border-radius;
 		-moz-border-radius-topright: $border-radius;
 		border-top-left-radius: $border-radius;
 		border-top-right-radius: $border-radius;
+		border-bottom: 1px solid lighten($dark-gray, 65%);
 	}
 	& .content{
 		padding: 1em;
-	}
-}
-
-#actions{
-	margin: 0 auto;
-	line-height: 3em;
-	& .small{
-		float: right;
-		margin: 0.5em 0 0.5em 0.8em;
-	}
-}
-
-.filters{
-	font-size: 0.95em;
-	text-align: justify;
-	color: $light-gray;
-	line-height: 2em;
-	width: 80%;
-	margin: 0 0 0 3.7em;
-	& select{
-		float: right;
-		margin: 5px 0;
-	}
-	& input[value*='Ver']{
-		margin: 0.8em auto 0;
-	}
-}
-
-table{
-	width: 100%;
-	& input[type*="checkbox"]{
-		margin: 0 auto;
+		color: $dark-gray;
 	}
 }

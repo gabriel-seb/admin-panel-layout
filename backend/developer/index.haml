@@ -25,21 +25,11 @@
 		</style>
 	%body
 		/application header
-		%header#main_app.blue
+		%header#main_app.light_blue.texture
 			.wrapper
 				.grid
-					.cols-1-5
+					.cols-4-5
 						.logo Logo de Karizmi
-					%nav.cols-3-5
-						%ul#main_nav
-							%li
-								%a{:href => "#"} Inventario
-							%li
-								%a{:href => "#"} Ventas
-							%li
-								%a{:href => "#"} Diseño
-							%li
-								%a{:href => "#"} Sistema
 					.cols-1-5
 						.user
 							%p
@@ -48,31 +38,98 @@
 		.container
 			.wrapper
 				.grid
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
-				.grid
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
-					.cols-1-2
-						.square.gray
-							.title.light_blue
-								Titulo del cuadro
-							.content
-								Contenido
+					%nav.cols-1-5
+						%ul#main_nav
+							%li.beige
+								%a{:href => "#"} 
+									%img{:src => "../img/flower.png"}
+									Inventario
+								%ul.sublist
+									%li
+										%a{:href => "#"} 
+											Productos
+											%span >
+									%li
+										%a{:href => "#"} 
+											Accesorios
+											%span >
+									%li
+										%a{:href => "#"} 
+											Flores
+											%span >
+									%li
+										%a{:href => "#"} 
+											Tamaños
+											%span >
+									%li
+										%a{:href => "#"} 
+											Accesorios
+											%span >	
+							%li.beige
+								%a{:href => "#"} 
+								%img{:src => "../img/store.png"}
+								Ventas
+								%ul.sublist
+									%li
+										%a{:href => "#"} 
+											Órdenes
+											%span >
+									%li
+										%a{:href => "#"} 
+											Créditos
+											%span >
+									%li
+										%a{:href => "#"} 
+											Pagos
+											%span >
+							%li.beige
+								%a{:href => "#"} Diseño
+							%li.beige
+								%a{:href => "#"} Sistema
+								%ul.sublist
+									%li
+										%a{:href => "#"} 
+											Usuarios
+											%span >
+									%li
+										%a{:href => "#"} 
+											Monedas
+											%span >
+									%li
+										%a{:href => "#"} 
+											Zonas de Entregas
+											%span >
+									%li
+										%a{:href => "#"} 
+											Impuestos
+											%span >
+					.cols-4-5
+						.grid
+							.cols-1-2
+								.square
+									.title.beige
+										Titulo del cuadro
+									.content
+										Contenido
+							.cols-1-2
+								.square
+									.title.beige
+										Titulo del cuadro
+									.content
+										Contenido
+						.grid
+							.cols-1-2
+								.square
+									.title.beige
+										Titulo del cuadro
+									.content
+										Contenido
+							.cols-1-2
+								.square
+									.title.beige
+										Titulo del cuadro
+									.content
+										Contenido
 			%footer
 				.wrapper
 					.grid

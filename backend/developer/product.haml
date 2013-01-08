@@ -25,21 +25,11 @@
 		</style>
 	%body
 		/application header
-		%header#main_app.blue
+		%header#main_app.light_blue.texture
 			.wrapper
 				.grid
-					.cols-1-5
+					.cols-4-5
 						.logo Logo de Karizmi
-					%nav.cols-3-5
-						%ul#main_nav
-							%li
-								%a{:href => "#"} Inventario
-							%li
-								%a{:href => "#"} Ventas
-							%li
-								%a{:href => "#"} Diseño
-							%li
-								%a{:href => "#"} Sistema
 					.cols-1-5
 						.user
 							%p
@@ -47,17 +37,77 @@
 								%span <nombre>
 		.container
 			.wrapper
+				.grid#actions
+					%input.button.small.light_blue{:value => "Eliminar", :type => "button"}
+					%input.button.small.light_blue{:value => "Modificar", :type => "button"}
+					%input.button.small.light_blue{:value => "Nuevo", :type => "button"}
 				.grid
-					#actions
-						.cols-1-2
-							%h2 
-								Producto
-						.cols-1-2
-							%input.button.small.light_blue{:value => "Eliminar", :type => "button"}
-							%input.button.small.light_blue{:value => "Modificar", :type => "button"}
-							%input.button.small.light_blue{:value => "Nuevo", :type => "button"}
-				.grid
-					.cols-3-4
+					%nav.cols-1-5
+						%ul#main_nav
+							%li.beige
+								%a{:href => "#"} 
+									%img{:src => "../img/flower.png"}
+									Inventario
+								%ul.sublist
+									%li
+										%a{:href => "#"} 
+											Productos
+											%span >
+									%li
+										%a{:href => "#"} 
+											Accesorios
+											%span >
+									%li
+										%a{:href => "#"} 
+											Flores
+											%span >
+									%li
+										%a{:href => "#"} 
+											Tamaños
+											%span >
+									%li
+										%a{:href => "#"} 
+											Accesorios
+											%span >	
+							%li.beige
+								%a{:href => "#"} 
+								%img{:src => "../img/store.png"}
+								Ventas
+								%ul.sublist
+									%li
+										%a{:href => "#"} 
+											Órdenes
+											%span >
+									%li
+										%a{:href => "#"} 
+											Créditos
+											%span >
+									%li
+										%a{:href => "#"} 
+											Pagos
+											%span >
+							%li.beige
+								%a{:href => "#"} Diseño
+							%li.beige
+								%a{:href => "#"} Sistema
+								%ul.sublist
+									%li
+										%a{:href => "#"} 
+											Usuarios
+											%span >
+									%li
+										%a{:href => "#"} 
+											Monedas
+											%span >
+									%li
+										%a{:href => "#"} 
+											Zonas de Entregas
+											%span >
+									%li
+										%a{:href => "#"} 
+											Impuestos
+											%span >
+					.cols-3-5
 						%table
 							%thead
 								%tr
@@ -77,7 +127,7 @@
 								%tr
 									%td
 										%input{:type => "checkbox"}
-					.cols-1-4
+					.cols-1-5
 						.filters
 							%form
 								%h4
@@ -93,9 +143,9 @@
 									%select
 										%option Seleccione...
 								%input.button.small.light_blue{:value => "Ver", :type => "Submit"}
-				%footer
-					.wrapper
-						.grid
-							.cols-1-1
-								%p
-									Información confidencial
+			%footer
+				.wrapper
+					.grid
+						.cols-1-1
+							%p
+								Información confidencial
