@@ -4,6 +4,7 @@
 $base: #4383b0;
 $light-base: #5da6c8;
 $secondary: #f9f4e8;
+$dark-secondary: #aea99b;
 $light-gray: #d6d9dc;
 $dark-gray: #292828;
 $orange:#f3a717;
@@ -28,15 +29,17 @@ $transition: all 0.5s ease;
 	& li{
 		height: 100%;
 		cursor: pointer;
+		font-size: 1.1em;
 		& a{
 			line-height: 3em;
 			margin: 0 0 0 0.7em;
 			text-decoration: none;
-			color: $dark-gray;
+			color: darken($dark-secondary, 20%);
 		}
 	}
 	& li ul li{
 		padding: 0.5em 0;
+		font-size: 0.9em;
 		background: $orange;
 		border-top: 1px solid darken($orange, 4%);
 		border-bottom: 1px solid darken($orange, 4%);
@@ -66,6 +69,7 @@ $transition: all 0.5s ease;
 			border-bottom: 1px solid darken($orange, 20%);
 			a{
 				color: lighten($dark-gray, 75%);
+				margin: 0 0 0 3em;
 				& span{
 					display: inline;
 					color: #fff;

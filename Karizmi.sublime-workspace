@@ -187,110 +187,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "backend/pages_developer/index.haml",
-			"settings":
-			{
-				"buffer_size": 1902,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/developer/_menu.scss",
-			"settings":
-			{
-				"buffer_size": 1898,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/developer/styles.scss",
-			"settings":
-			{
-				"buffer_size": 4178,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/inventory.haml",
-			"settings":
-			{
-				"buffer_size": 4171,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/inventory_action.haml",
-			"settings":
-			{
-				"buffer_size": 3821,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/inventory_image.haml",
-			"settings":
-			{
-				"buffer_size": 2315,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/developer/_inventory.scss",
-			"settings":
-			{
-				"buffer_size": 2266,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/categories.haml",
-			"settings":
-			{
-				"buffer_size": 2240,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/layout_action.haml",
-			"settings":
-			{
-				"buffer_size": 1902,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/layout.haml",
-			"settings":
-			{
-				"buffer_size": 1902,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "backend/pages_developer/categories_action.haml",
-			"settings":
-			{
-				"buffer_size": 1902,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/developer/_grid.scss",
-			"settings":
-			{
-				"buffer_size": 521,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/developer/_backend.scss",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -320,13 +216,20 @@
 	},
 	"file_history":
 	[
-		"/Users/luiscastro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/index.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/css/developer/_backend.scss",
+		"/Users/luiscastro/Repos/KarizmiWeb/css/developer/_grid.scss",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/categories_action.haml",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/layout.haml",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/layout_action.haml",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/categories.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/css/developer/_inventory.scss",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/inventory_action.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/inventory.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/css/developer/styles.scss",
+		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/index.haml",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/inventory_image.haml",
+		"/Users/luiscastro/Repos/KarizmiWeb/css/developer/_menu.scss",
+		"/Users/luiscastro/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/accessories.haml",
 		"/Users/luiscastro/Repos/KarizmiWeb/backend/pages_developer/products.haml",
 		"/Users/luiscastro/Repos/refreshpage/stylesheets/custom.scss",
@@ -439,357 +342,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "backend/pages_developer/index.haml",
-					"settings":
-					{
-						"buffer_size": 1902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1902,
-								1902
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 296.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/developer/_menu.scss",
-					"settings":
-					{
-						"buffer_size": 1898,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								150,
-								150
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 461.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/developer/styles.scss",
-					"settings":
-					{
-						"buffer_size": 4178,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								295,
-								295
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 776.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "backend/pages_developer/inventory.haml",
-					"settings":
-					{
-						"buffer_size": 4171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4171,
-								4171
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1736.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "backend/pages_developer/inventory_action.haml",
-					"settings":
-					{
-						"buffer_size": 3821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1907,
-								1902
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 831.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "backend/pages_developer/inventory_image.haml",
-					"settings":
-					{
-						"buffer_size": 2315,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2121,
-								2121
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 536.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/developer/_inventory.scss",
-					"settings":
-					{
-						"buffer_size": 2266,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2221,
-								2221
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1856.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "backend/pages_developer/categories.haml",
-					"settings":
-					{
-						"buffer_size": 2240,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1902,
-								1902
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 473.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "backend/pages_developer/layout_action.haml",
-					"settings":
-					{
-						"buffer_size": 1902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1902,
-								1902
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 296.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "backend/pages_developer/layout.haml",
-					"settings":
-					{
-						"buffer_size": 1902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1902,
-								1902
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 296.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "backend/pages_developer/categories_action.haml",
-					"settings":
-					{
-						"buffer_size": 1902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1902,
-								1902
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "css/developer/_grid.scss",
-					"settings":
-					{
-						"buffer_size": 521,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "css/developer/_backend.scss",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -871,16 +425,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }

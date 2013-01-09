@@ -46,11 +46,12 @@
     <div class='container'>
       <div class='wrapper'>
         <div class='grid' id='actions'>
-          <input class='button small light_blue' type='button' value='Eliminar'>
-          <input class='button small light_blue' type='button' value='Modificar'>
-          <input class='button small light_blue' type='button' value='Nuevo'>
+          <input class='upper_corner rounded left' type='button' value='Eliminar'>
+          <input class='upper_corner' type='button' value='Modificar'>
+          <input class='upper_corner rounded right' type='button' value='Nuevo'>
         </div>
         <div class='grid'>
+          <!-- main-menu -->
           <nav class='cols-1-5'>
             <ul id='main_nav'>
               <li class='beige'>
@@ -92,9 +93,10 @@
                 </ul>
               </li>
               <li class='beige'>
-                <a href='#'></a>
-                <img src='../img/store.png'>
-                Ventas
+                <a href='#'>
+                  <img src='../img/store.png'>
+                  Ventas
+                </a>
                 <ul class='sublist'>
                   <li>
                     <a href='#'>
@@ -117,10 +119,16 @@
                 </ul>
               </li>
               <li class='beige'>
-                <a href='#'>Diseño</a>
+                <a href='#'>
+                  <img src='../img/palette.png'>
+                  Diseño
+                </a>
               </li>
               <li class='beige'>
-                <a href='#'>Sistema</a>
+                <a href='#'>
+                  <img src='../img/system.png'>
+                  Sistema
+                </a>
                 <ul class='sublist'>
                   <li>
                     <a href='#'>
@@ -150,39 +158,154 @@
               </li>
             </ul>
           </nav>
+          <!-- content -->
           <div class='cols-3-5'>
-            <table>
-              <thead>
-                <tr>
-                  <th>
-                    &#9660
-                  </th>
-                  <th>
-                    Imagen
-                  </th>
-                  <th>
-                    Nombre
-                  </th>
-                  <th>
-                    Estatus
-                  </th>
-                  <th>
-                    Disponibilidad
-                  </th>
-                  <th>
-                    Acciones
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
+            <ol id='content'>
+              <li id='table_header'>
+                <div class='grid'>
+                  <div class='cols-table-1'>
+                    <h2>&#9660</h2>
+                  </div>
+                  <div class='cols-table-2'>
+                    <h2>Imagen</h2>
+                  </div>
+                  <div class='cols-table-3'>
+                    <h2>nombre</h2>
+                  </div>
+                  <div class='cols-table-2'>
+                    <h2>Estatus</h2>
+                  </div>
+                  <div class='cols-table-2'>
+                    <h2>Disponibilidad</h2>
+                  </div>
+                  <div class='cols-table-2'>
+                    <h2>Acciones</h2>
+                  </div>
+                </div>
+              </li>
+              <li class='item'>
+                <div class='grid'>
+                  <div class='cols-table-1'>
                     <input type='checkbox'>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img src='../img/test_pic.png'>
+                  </div>
+                  <div class='cols-table-3'>
+                    <h4>Nombre</h4>
+                    <h6>Descripción del producto</h6>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Activo</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Disponible</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img class='buttons modify' src='../img/pencil_32.png'>
+                    <img class='buttons delete' src='../img/delete_32.png'>
+                  </div>
+                </div>
+              </li>
+              <li class='item'>
+                <div class='grid'>
+                  <div class='cols-table-1'>
+                    <input type='checkbox'>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img src='../img/test_pic.png'>
+                  </div>
+                  <div class='cols-table-3'>
+                    <h4>Nombre</h4>
+                    <h6>Descripción del producto</h6>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Activo</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Disponible</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img class='buttons modify' src='../img/pencil_32.png'>
+                    <img class='buttons delete' src='../img/delete_32.png'>
+                  </div>
+                </div>
+              </li>
+              <li class='item'>
+                <div class='grid'>
+                  <div class='cols-table-1'>
+                    <input type='checkbox'>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img src='../img/test_pic.png'>
+                  </div>
+                  <div class='cols-table-3'>
+                    <h4>Nombre</h4>
+                    <h6>Descripción del producto</h6>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Activo</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Disponible</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img class='buttons modify' src='../img/pencil_32.png'>
+                    <img class='buttons delete' src='../img/delete_32.png'>
+                  </div>
+                </div>
+              </li>
+              <li class='item'>
+                <div class='grid'>
+                  <div class='cols-table-1'>
+                    <input type='checkbox'>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img src='../img/test_pic.png'>
+                  </div>
+                  <div class='cols-table-3'>
+                    <h4>Nombre</h4>
+                    <h6>Descripción del producto</h6>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Activo</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Disponible</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img class='buttons modify' src='../img/pencil_32.png'>
+                    <img class='buttons delete' src='../img/delete_32.png'>
+                  </div>
+                </div>
+              </li>
+              <li class='item'>
+                <div class='grid'>
+                  <div class='cols-table-1'>
+                    <input type='checkbox'>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img src='../img/test_pic.png'>
+                  </div>
+                  <div class='cols-table-3'>
+                    <h4>Nombre</h4>
+                    <h6>Descripción del producto</h6>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Activo</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <p>Disponible</p>
+                  </div>
+                  <div class='cols-table-2'>
+                    <img class='buttons modify' src='../img/pencil_32.png'>
+                    <img class='buttons delete' src='../img/delete_32.png'>
+                  </div>
+                </div>
+              </li>
+            </ol>
           </div>
+          <!-- filters -->
           <div class='cols-1-5'>
             <div class='filters'>
               <form>
@@ -204,7 +327,7 @@
                     <option>Seleccione...</option>
                   </select>
                 </h4>
-                <input class='button small light_blue' type='Submit' value='Ver'>
+                <input class='upper_corner' type='Submit' value='Ver'>
               </form>
             </div>
           </div>

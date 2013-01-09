@@ -38,10 +38,11 @@
 		.container
 			.wrapper
 				.grid#actions
-					%input.button.small.light_blue{:value => "Eliminar", :type => "button"}
-					%input.button.small.light_blue{:value => "Modificar", :type => "button"}
-					%input.button.small.light_blue{:value => "Nuevo", :type => "button"}
+					%input.upper_corner.rounded.left{:value => "Eliminar", :type => "button"}
+					%input.upper_corner{:value => "Modificar", :type => "button"}
+					%input.upper_corner.rounded.right{:value => "Nuevo", :type => "button"}
 				.grid
+					/main-menu
 					%nav.cols-1-5
 						%ul#main_nav
 							%li.beige
@@ -71,8 +72,8 @@
 											%span >	
 							%li.beige
 								%a{:href => "#"} 
-								%img{:src => "../img/store.png"}
-								Ventas
+									%img{:src => "../img/store.png"}
+									Ventas
 								%ul.sublist
 									%li
 										%a{:href => "#"} 
@@ -87,9 +88,13 @@
 											Pagos
 											%span >
 							%li.beige
-								%a{:href => "#"} Diseño
+								%a{:href => "#"} 
+									%img{:src => "../img/palette.png"}
+									Diseño
 							%li.beige
-								%a{:href => "#"} Sistema
+								%a{:href => "#"} 
+									%img{:src => "../img/system.png"}
+									Sistema
 								%ul.sublist
 									%li
 										%a{:href => "#"} 
@@ -107,26 +112,104 @@
 										%a{:href => "#"} 
 											Impuestos
 											%span >
+					/content
 					.cols-3-5
-						%table
-							%thead
-								%tr
-									%th
-										&#9660
-									%th
-										Imagen
-									%th
-										Nombre
-									%th
-										Estatus
-									%th
-										Disponibilidad
-									%th
-										Acciones
-							%tbody
-								%tr
-									%td
+						%ol#content
+							%li#table_header
+								.grid
+									.cols-table-1
+										%h2 &#9660
+									.cols-table-2
+										%h2 Imagen
+									.cols-table-3
+										%h2 nombre
+									.cols-table-2
+										%h2 Estatus
+									.cols-table-2
+										%h2 Disponibilidad
+									.cols-table-2
+										%h2 Acciones
+							%li.item
+								.grid
+									.cols-table-1
 										%input{:type => "checkbox"}
+									.cols-table-2
+										%img{:src => "../img/test_pic.png"}
+									.cols-table-3
+										%h4 Nombre
+										%h6 Descripción del producto
+									.cols-table-2
+										%p Activo
+									.cols-table-2
+										%p Disponible
+									.cols-table-2
+										%img.buttons.modify{:src => "../img/pencil_32.png"}
+										%img.buttons.delete{:src => "../img/delete_32.png"}
+							%li.item
+								.grid
+									.cols-table-1
+										%input{:type => "checkbox"}
+									.cols-table-2
+										%img{:src => "../img/test_pic.png"}
+									.cols-table-3
+										%h4 Nombre
+										%h6 Descripción del producto
+									.cols-table-2
+										%p Activo
+									.cols-table-2
+										%p Disponible
+									.cols-table-2
+										%img.buttons.modify{:src => "../img/pencil_32.png"}
+										%img.buttons.delete{:src => "../img/delete_32.png"}
+							%li.item
+								.grid
+									.cols-table-1
+										%input{:type => "checkbox"}
+									.cols-table-2
+										%img{:src => "../img/test_pic.png"}
+									.cols-table-3
+										%h4 Nombre
+										%h6 Descripción del producto
+									.cols-table-2
+										%p Activo
+									.cols-table-2
+										%p Disponible
+									.cols-table-2
+										%img.buttons.modify{:src => "../img/pencil_32.png"}
+										%img.buttons.delete{:src => "../img/delete_32.png"}
+							%li.item
+								.grid
+									.cols-table-1
+										%input{:type => "checkbox"}
+									.cols-table-2
+										%img{:src => "../img/test_pic.png"}
+									.cols-table-3
+										%h4 Nombre
+										%h6 Descripción del producto
+									.cols-table-2
+										%p Activo
+									.cols-table-2
+										%p Disponible
+									.cols-table-2
+										%img.buttons.modify{:src => "../img/pencil_32.png"}
+										%img.buttons.delete{:src => "../img/delete_32.png"}
+							%li.item
+								.grid
+									.cols-table-1
+										%input{:type => "checkbox"}
+									.cols-table-2
+										%img{:src => "../img/test_pic.png"}
+									.cols-table-3
+										%h4 Nombre
+										%h6 Descripción del producto
+									.cols-table-2
+										%p Activo
+									.cols-table-2
+										%p Disponible
+									.cols-table-2
+										%img.buttons.modify{:src => "../img/pencil_32.png"}
+										%img.buttons.delete{:src => "../img/delete_32.png"}
+					/filters
 					.cols-1-5
 						.filters
 							%form
@@ -142,7 +225,7 @@
 									Nombre
 									%select
 										%option Seleccione...
-								%input.button.small.light_blue{:value => "Ver", :type => "Submit"}
+								%input.upper_corner{:value => "Ver", :type => "Submit"}
 			%footer
 				.wrapper
 					.grid
