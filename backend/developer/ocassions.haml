@@ -38,7 +38,7 @@
 		.container
 			.wrapper
 				.grid#actions
-					%h2 Accesorios
+					%h2 Ocasiones
 					%input.upper_corner.rounded.left{:value => "Eliminar", :type => "button"}
 					%input.upper_corner{:value => "Modificar", :type => "button"}
 					%input.upper_corner.rounded.right{:value => "Nuevo", :type => "button"}
@@ -118,90 +118,60 @@
 						%ol#content
 							%li#table_header
 								.grid
-									.cols-table-1
+									.cols-table-2
 										%h2 &#9660
-									.cols-table-4
+									.cols-table-5
 										%h2 Imagen
-									.cols-table-3
+									.cols-table-5
 										%h2 Nombre
-									.cols-table-4
-										%h2 Categoria
-									.cols-table-4
-										%h2 Estatus
-									.cols-table-4
-										%h2 Disponible
-									.cols-table-4
+									.cols-table-5
 										%h2 Acciones
 							%li.item
 								.grid
-									.cols-table-1
+									.cols-table-2
 										%input{:type => "checkbox"}
-									.cols-table-4
+									.cols-table-5
 										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
+									.cols-table-5
 										%h4 Nombre
 										%h6 Descripción del producto
-									.cols-table-4
-										%p Categoria
-									.cols-table-4
-										%p Activo
-									.cols-table-4
-										%p Si
-									.cols-table-4
+									.cols-table-5
 										%img.buttons.modify{:src => "../img/pencil_32.png", :alt => "Modificar"}
 										%img.buttons.delete{:src => "../img/delete_32.png", :alt => "Eliminar"}
 							%li.item
 								.grid
-									.cols-table-1
+									.cols-table-2
 										%input{:type => "checkbox"}
-									.cols-table-4
+									.cols-table-5
 										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
+									.cols-table-5
 										%h4 Nombre
 										%h6 Descripción del producto
-									.cols-table-4
-										%p Categoria
-									.cols-table-4
-										%p Activo
-									.cols-table-4
-										%p Si
-									.cols-table-4
+									.cols-table-5
 										%img.buttons.modify{:src => "../img/pencil_32.png", :alt => "Modificar"}
 										%img.buttons.delete{:src => "../img/delete_32.png", :alt => "Eliminar"}
 							%li.item
 								.grid
-									.cols-table-1
+									.cols-table-2
 										%input{:type => "checkbox"}
-									.cols-table-4
+									.cols-table-5
 										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
+									.cols-table-5
 										%h4 Nombre
 										%h6 Descripción del producto
-									.cols-table-4
-										%p Categoria
-									.cols-table-4
-										%p Activo
-									.cols-table-4
-										%p Si
-									.cols-table-4
+									.cols-table-5
 										%img.buttons.modify{:src => "../img/pencil_32.png", :alt => "Modificar"}
 										%img.buttons.delete{:src => "../img/delete_32.png", :alt => "Eliminar"}
 							%li.item
 								.grid
-									.cols-table-1
+									.cols-table-2
 										%input{:type => "checkbox"}
-									.cols-table-4
+									.cols-table-5
 										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
+									.cols-table-5
 										%h4 Nombre
 										%h6 Descripción del producto
-									.cols-table-4
-										%p Categoria
-									.cols-table-4
-										%p Activo
-									.cols-table-4
-										%p Si
-									.cols-table-4
+									.cols-table-5
 										%img.buttons.modify{:src => "../img/pencil_32.png", :alt => "Modificar"}
 										%img.buttons.delete{:src => "../img/delete_32.png", :alt => "Eliminar"}
 					/filters
@@ -209,28 +179,11 @@
 						.filters
 							%form
 								%h4
-									Estatus
-									%select
-										%option Seleccione...
-										%option Activo
-										%option Inactivo
-								%h4
-									Disponibilidad
-									%select
-										%option Seleccione...
-										%option Disponible
-										%option Agotado
-										%option Desactivado
-								%h4
 									Nombre
 									%select
 										%option Seleccione...
 										%option A-Z
 										%option Z-A
-								%h4
-									Categoría
-									%select
-										%option Seleccione...
 								%input.upper_corner{:value => "Ver", :type => "Submit"}
 			%footer
 				.wrapper
