@@ -37,6 +37,13 @@ footer{
 	text-indent: -9999px;
 }
 
+.user{
+	font-size: 0.9em;
+	& span{
+		font-weight: bold;
+	}
+}
+
 #main_app{
 	height: 4em;
 	vertical-align: middle;
@@ -84,13 +91,19 @@ footer{
 	margin: 0 0 -0.5em;
 	& .rounded.left{
 		-webkit-border-radius: 2px 0 0 2px;
-    border-radius: 2px 0 0 2px;
-    border-right: none;
+		border-radius: 2px 0 0 2px;
+		border-right: none;
 	}
 	& .rounded.right{
 		-webkit-border-radius: 0 2px 2px 0;
-    border-radius: 0 2px 2px 0;
-    border-left: none;
+		border-radius: 0 2px 2px 0;
+		border-left: none;
+	}
+	& h2{
+		line-height: 2.5em;
+		margin-top: -1em;
+		font-size: 1.4em;
+		color: #8B8B8B;
 	}
 }
 
@@ -125,6 +138,7 @@ footer{
 	& #table_header{
 		width: 100%;
 		padding: 1.27em 0;
+		color: lighten($dark-gray, 20%);
 		background: #e4dacb;
 		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U0ZGFjYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc0JSIgc3RvcC1jb2xvcj0iI2QzY2NiZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
 		background: -moz-linear-gradient(top,  #e4dacb 0%, #d3ccbe 74%);
@@ -138,17 +152,43 @@ footer{
 			font-weight: bold;
 			height:16px;
 			text-align: center;
+			text-transform: capitalize;
 		}
 	}
 	& h4, & h6, & p{
 		font-size: 0.9em;
 	}
+	& h4{
+		font-weight: bold;
+	}
+	//normal images
+	& img{
+		width: 50px;
+		//user action buttons
+		&.buttons{
+			width: 32px;
+			height: 32px;
+			cursor: pointer;
+			&.modify{
+				margin: 0 0 0 5px;
+			}
+			&.delete{
+				margin: 0 0 0 15px;
+			}
+		}
+	}
 }
 
 .filters{
-	margin: 2em 0 0;
+	margin: 1.9em 0 0;
 	font-size: 0.9em;
 	line-height: 2.4em;
+	border: 1px solid #CFCECE;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 1em;
+	background: #FCFCFC;
 	& select{
 		float: right;
 		margin: 0.6em 0;

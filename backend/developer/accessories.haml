@@ -38,7 +38,7 @@
 		.container
 			.wrapper
 				.grid#actions
-					%h2 Productos
+					%h2 Accesorios
 					%input.upper_corner.rounded.left{:value => "Eliminar", :type => "button"}
 					%input.upper_corner{:value => "Modificar", :type => "button"}
 					%input.upper_corner.rounded.right{:value => "Nuevo", :type => "button"}
@@ -120,96 +120,36 @@
 								.grid
 									.cols-table-1
 										%h2 &#9660
-									.cols-table-2
+									.cols-table-4
 										%h2 Imagen
 									.cols-table-3
 										%h2 Nombre
-									.cols-table-2
+									.cols-table-4
+										%h2 Categoria
+									.cols-table-4
 										%h2 Estatus
-									.cols-table-2
+									.cols-table-4
 										%h2 Disponible
-									.cols-table-2
+									.cols-table-4
 										%h2 Acciones
 							%li.item
 								.grid
 									.cols-table-1
 										%input{:type => "checkbox"}
-									.cols-table-2
+									.cols-table-4
 										%img{:src => "../img/test_pic.png"}
 									.cols-table-3
 										%h4 Nombre
 										%h6 Descripción del producto
-									.cols-table-2
+									.cols-table-4
+										%p Categoria
+									.cols-table-4
 										%p Activo
-									.cols-table-2
+									.cols-table-4
 										%p Si
-									.cols-table-2
+									.cols-table-4
 										%img.buttons.modify{:src => "../img/pencil_32.png", :alt => "Modificar"}
 										%img.buttons.delete{:src => "../img/delete_32.png", :alt => "Eliminar"}
-							%li.item
-								.grid
-									.cols-table-1
-										%input{:type => "checkbox"}
-									.cols-table-2
-										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
-										%h4 Nombre
-										%h6 Descripción del producto
-									.cols-table-2
-										%p Activo
-									.cols-table-2
-										%p Si
-									.cols-table-2
-										%img.buttons.modify{:src => "../img/pencil_32.png"}
-										%img.buttons.delete{:src => "../img/delete_32.png"}
-							%li.item
-								.grid
-									.cols-table-1
-										%input{:type => "checkbox"}
-									.cols-table-2
-										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
-										%h4 Nombre
-										%h6 Descripción del producto
-									.cols-table-2
-										%p Activo
-									.cols-table-2
-										%p No
-									.cols-table-2
-										%img.buttons.modify{:src => "../img/pencil_32.png"}
-										%img.buttons.delete{:src => "../img/delete_32.png"}
-							%li.item
-								.grid
-									.cols-table-1
-										%input{:type => "checkbox"}
-									.cols-table-2
-										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
-										%h4 Nombre
-										%h6 Descripción del producto
-									.cols-table-2
-										%p Activo
-									.cols-table-2
-										%p Si
-									.cols-table-2
-										%img.buttons.modify{:src => "../img/pencil_32.png"}
-										%img.buttons.delete{:src => "../img/delete_32.png"}
-							%li.item
-								.grid
-									.cols-table-1
-										%input{:type => "checkbox"}
-									.cols-table-2
-										%img{:src => "../img/test_pic.png"}
-									.cols-table-3
-										%h4 Nombre
-										%h6 Descripción del producto
-									.cols-table-2
-										%p Activo
-									.cols-table-2
-										%p No
-									.cols-table-2
-										%img.buttons.modify{:src => "../img/pencil_32.png"}
-										%img.buttons.delete{:src => "../img/delete_32.png"}
 					/filters
 					.cols-1-5
 						.filters
@@ -233,6 +173,10 @@
 										%option Seleccione...
 										%option A-Z
 										%option Z-A
+								%h4
+									Categoría
+									%select
+										%option Seleccione...
 								%input.upper_corner{:value => "Ver", :type => "Submit"}
 			%footer
 				.wrapper
