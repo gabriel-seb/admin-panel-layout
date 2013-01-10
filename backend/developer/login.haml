@@ -1,0 +1,58 @@
+!!!
+/ paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+/[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+/[if IE 7] <html class="no-js lt-ie9 lt-ie8" lang="en">
+/[if IE 8] <html class="no-js lt-ie9" lang="en">
+/ [if gt IE 8]>
+/[endif]
+%html.no-js{:lang => "es"}
+	%head
+		%meta{:charset => "utf-8"}/
+		/ Set the viewport width to device width for mobile
+		%meta{:content => "width=device-width", :name => "viewport"}/
+		%title Bienvenido, inicie sesión para continuar
+		/ Included CSS Files (Compressed)
+		%link{:href => "../css/styles.css", :rel => "stylesheet"}
+		%link{:href => "favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}
+		%link{:href => "http://fonts.googleapis.com/css?family=Telex", :rel => "stylesheet", :type => "text/css"}
+		/ IE Fix for HTML5 Tags
+		/ [if lt IE 9]
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<style type="text/css">
+		\.gradient {
+		filter: none;
+		}
+		</style>
+	%body
+		/application header
+		%header#main_app.light_blue.texture
+			.wrapper
+				.grid
+					.cols-4-5
+						.logo Logo de Karizmi
+					.cols-1-5
+						.user
+							%p
+								Por favor, inicie sesión
+		.container
+			.wrapper
+				#login_window.square
+					%form#sign_in
+						.grid.title.dark_beige
+							.cols-1-1
+								%h2 Sistema Administrativo
+						.content
+							.grid
+								.cols-1-1
+									%input{:placeholder => "Correo Electrónico", :type => "email"}
+							.grid
+								.cols-1-1
+									%input{:placeholder => "Contraseña", :type => "password"}
+							.grid
+								.cols-1-1
+									%input.upper_corner{:value => "Ingresar", :type => "submit"}
+							.grid
+								.cols-1-1
+									%p 
+										Si no posee una cuenta, por favor contacte al administrador del sistema a la siguiente dirección
+										%a{:href => "info@hipervinculo.net"} info@hipervinculo.net
